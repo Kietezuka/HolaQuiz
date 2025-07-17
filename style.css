@@ -1,5 +1,5 @@
 .container {
-  max-width: 500px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +40,8 @@
   border: thin solid rgb(45, 45, 45);
 }
 #display-word-text {
+  display: inline;
+  font-size: larger;
   border: thin solid black;
   width: fit-content;
   margin: 10px auto;

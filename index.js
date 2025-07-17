@@ -26,11 +26,14 @@ const levelBtns = document.querySelectorAll(".level-btn");
 //button pos
 const posBtns = document.querySelectorAll(".pos-btn");
 const startNextBtn = document.getElementById("start-next-btn");
+const startBtn = document.querySelector(".start");
 const ansBtns = document.querySelectorAll(".ans-btn");
 const seeAllWords = document.getElementById("see-all-words");
+
 //Element
 const displayWordText = document.getElementById("display-word-text");
 const displayList = document.getElementById("display-list");
+const answerContainer = document.getElementsByClassName("answer-container");
 //----------------------------------------------------------------<Change the selected btn>
 //when user clicked the btn, remove ".level-btn selected" (alreday cliced btn),
 // and then add ".level-btn selected " to the btn which user clicked
@@ -39,10 +42,7 @@ const displayList = document.getElementById("display-list");
 // => then add ".level-btn selected " to the btn which user cliced
 //same works for posBtns
 
-let statesObj = {
-  level: "A1",
-  pos: "all",
-};
+let statesObj = {};
 
 let correctAnsBtnId = "";
 let correctAnsBtn = "";
@@ -62,8 +62,23 @@ function changeBtn(levelBtns, posBtns) {
         statesObj.level = levelValue;
         statesObj.pos = posValue;
         startNextBtn.innerHTML = "START";
-        getWords(levelValue, posValue);
-        // console.log(statesObj);
+
+        if (!levelValue || !posValue) {
+          if (posValue && !levelValue) {
+            displayWordText.textContent = `Please select a CEFR level to focus on ${posValue}s.`;
+          } else if (levelValue && !posValue) {
+            displayWordText.textContent = `Which part of speech would you like to focus on from the ${levelValue} level?`;
+          }
+        } else {
+          if (posValue === "all") {
+            displayWordText.textContent = `Let's explore every ${levelValue}-level word!`;
+          } else {
+            displayWordText.textContent = `Focusing on ${posValue}s from the ${levelValue} level.`;
+          }
+          startNextBtn.classList.add("start");
+
+          startNextBtn.classList.remove("next");
+        }
       });
     });
   }
@@ -71,35 +86,53 @@ function changeBtn(levelBtns, posBtns) {
   changeState(posBtns);
 }
 changeBtn(levelBtns, posBtns);
-getWords(statesObj.level, statesObj.pos);
+// getWords(statesObj.level, statesObj.pos);
 
-startNextBtn.addEventListener("click", function () {
+startBtn.addEventListener("click", function () {
+  if (!statesObj.level || !statesObj.pos) {
+    alert("Select a level and part of speech to start the quiz.");
+    return;
+  }
+  startNextBtn.classList.remove("start");
+  startNextBtn.classList.add("next");
   startNextBtn.innerHTML = "NEXT";
   //reset the background color of answer btns
   ansBtns.forEach((btn) => (btn.style.backgroundColor = ""));
 
   correctAnsBtnId = "";
   correctAnsBtn = "";
+  getWords(statesObj.level, statesObj.pos);
 });
 
+let leftList = [];
 function getWords(levelValue, posValue) {
   const list = wordsList[levelValue]?.[posValue];
   let getRandomIndex = "";
-  console.log(list);
-  if (list) {
-    getRandomIndex = Math.floor(Math.random() * list.length);
-    const ans = list[getRandomIndex];
-    console.log(ans);
-    displayListF(list);
-    const falseList = list.filter((list) => list != ans);
-    console.log(falseList);
-    displayWordText.innerText = `${ans.word}`;
-    renderAnswer(falseList, list[getRandomIndex].english_translation);
-  } else {
-    console.log("Please select level and pos");
-  }
+
+  getRandomIndex = Math.floor(Math.random() * list.length);
+  const ans = list[getRandomIndex];
+
+  leftList = list.filter((list) => list != ans);
+
+  displayListF(list);
+  const falseList = list.filter((list) => list != ans);
+
+  displayWordText.innerText = `${ans.word}`;
+  renderAnswer(falseList, list[getRandomIndex].english_translation);
 }
 
+startNextBtn.addEventListener("click", function () {
+  if (startNextBtn.classList.contains("next")) {
+    hasCorrect = false;
+  }
+  if (leftList > 0) {
+    getWords(levelValue, posValue);
+  } else {
+    answerContainer.innerHTML = "<p>Completed!</p>";
+  }
+});
+
+let hasCorrect = false;
 function renderAnswer(falseList, correctAns) {
   let randomAnserBtnNum = Math.floor(Math.random() * 4 + 1);
   const ansBtnArr = Array.from(ansBtns);
@@ -122,8 +155,12 @@ function renderAnswer(falseList, correctAns) {
 
   correctAnsBtn.addEventListener("click", function () {
     correctAnsBtn.style.backgroundColor = "yellow";
+    hasCorrect = true;
     alert("Correct!");
   });
+  if (hasCorrect === true) {
+    nextBtn();
+  }
 }
 
 let isDisplay = false;
