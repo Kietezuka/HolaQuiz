@@ -1,0 +1,80 @@
+.container {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+.quiz-section {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+}
+
+.btns,
+.pos {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  border: thin solid orange;
+}
+
+.btns button,
+.pos button {
+  width: 70px;
+  margin: 5px;
+}
+#display-word-el {
+  margin-top: 5px;
+  padding: 5px;
+  border: thin solid red;
+  display: flex;
+  flex-direction: column;
+}
+#start-next-btn {
+  width: 100px;
+  margin: 5px auto;
+}
+.answer-container {
+  border: thin solid rgb(45, 45, 45);
+}
+#display-word-text {
+  border: thin solid black;
+  width: fit-content;
+  margin: 10px auto;
+}
+
+.mcq-container button {
+  width: 200px;
+  margin: 5px;
+}
+
+.see-all-words-section {
+  margin-top: 30px;
+  border: thin solid blue;
+}
+
+/* 
+.list-all-words {
+  display: none;
+} */
+
+.list-all-words ul {
+  list-style: none;
+}
+
+.list-all-words ul li {
+  list-style: none;
+  background-color: bisque;
+  margin-top: 10px;
+  padding: 4px;
+}
+
+.level-btn.selected,
+.pos-btn.selected {
+  background-color: hsl(60, 99%, 51%);
+}
+#display-list {
+  display: none;
+}

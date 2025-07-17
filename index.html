@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HolaQuiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz-section">
+        <h2>Spanish to English Vocabulary Quiz</h2>
+        <div class="choose-level">
+          <p>Choose CEFR Level</p>
+          <div class="btns">
+            <button data-level= "A1" class="level-btn selected">A1</button>
+            <button data-level="A2" class="level-btn">A2</button>
+            <button data-level="B1" class="level-btn">B1</button>
+            <button data-level="B2" class="level-btn">B2</button>
+            <button data-level="C1" class="level-btn" >C1</button>
+          </div>
+          <div class="pos">
+            <button data-pos="all" class="pos-btn selected">All</button>
+            <button data-pos="noun" class="pos-btn">Noun</button>
+            <button data-pos="verb" class="pos-btn">Verb</button>
+            <button data-pos="adjective" class="pos-btn">Adjective</button>
+            <button data-pos="adverb" class="pos-btn">Adverb</button>
+          </div>
+          <div class="display-word-container">
+            <div id="display-word-el"><h1 id="display-word-text">Shapish word</h1>
+            <button id="start-next-btn">START</button></div>
+          </div>
+         <div class="answer-container">
+            <p>Click the right  option</p>
+            <div class="mcq-container">
+                <button id="1" class="ans-btn"></button>
+                <button id="2" class="ans-btn "></button>
+                <button id="3" class="ans-btn "></button>
+                <button id="4" class="ans-btn "></button>
+            </div>
+          </div>
+      </div>
+
+      <div class="see-all-words-section">
+        <button id="see-all-words">See all words</button>
+        <div class="list-all-words">
+            <ul id="display-list">
+                
+            </ul>
+        </div>
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
