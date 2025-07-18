@@ -1,0 +1,2402 @@
+[
+  {
+    "word": "libro",
+    "cefr_level": "A1",
+    "english_translation": "book",
+    "example_sentence_native": "Leo un libro.",
+    "example_sentence_english": "I read a book.",
+    "pos": "noun"
+  },
+  {
+    "word": "casa",
+    "cefr_level": "A1",
+    "english_translation": "house",
+    "example_sentence_native": "Vivo en una casa.",
+    "example_sentence_english": "I live in a house.",
+    "pos": "noun"
+  },
+  {
+    "word": "niño",
+    "cefr_level": "A1",
+    "english_translation": "child",
+    "example_sentence_native": "El niño juega.",
+    "example_sentence_english": "The child plays.",
+    "pos": "noun"
+  },
+  {
+    "word": "gato",
+    "cefr_level": "A1",
+    "english_translation": "cat",
+    "example_sentence_native": "El gato duerme.",
+    "example_sentence_english": "The cat sleeps.",
+    "pos": "noun"
+  },
+  {
+    "word": "escuela",
+    "cefr_level": "A1",
+    "english_translation": "school",
+    "example_sentence_native": "Voy a la escuela.",
+    "example_sentence_english": "I go to school.",
+    "pos": "noun"
+  },
+  {
+    "word": "mesa",
+    "cefr_level": "A1",
+    "english_translation": "table",
+    "example_sentence_native": "La mesa es grande.",
+    "example_sentence_english": "The table is big.",
+    "pos": "noun"
+  },
+  {
+    "word": "amigo",
+    "cefr_level": "A1",
+    "english_translation": "friend",
+    "example_sentence_native": "Mi amigo es simpático.",
+    "example_sentence_english": "My friend is nice.",
+    "pos": "noun"
+  },
+  {
+    "word": "comida",
+    "cefr_level": "A1",
+    "english_translation": "food",
+    "example_sentence_native": "La comida está lista.",
+    "example_sentence_english": "The food is ready.",
+    "pos": "noun"
+  },
+  {
+    "word": "mamá",
+    "cefr_level": "A1",
+    "english_translation": "mom",
+    "example_sentence_native": "Mi mamá cocina.",
+    "example_sentence_english": "My mom cooks.",
+    "pos": "noun"
+  },
+  {
+    "word": "agua",
+    "cefr_level": "A1",
+    "english_translation": "water",
+    "example_sentence_native": "Bebo agua.",
+    "example_sentence_english": "I drink water.",
+    "pos": "noun"
+  },
+  {
+    "word": "silla",
+    "cefr_level": "A1",
+    "english_translation": "chair",
+    "example_sentence_native": "La silla es azul.",
+    "example_sentence_english": "The chair is blue.",
+    "pos": "noun"
+  },
+  {
+    "word": "coche",
+    "cefr_level": "A1",
+    "english_translation": "car",
+    "example_sentence_native": "El coche es nuevo.",
+    "example_sentence_english": "The car is new.",
+    "pos": "noun"
+  },
+  {
+    "word": "camisa",
+    "cefr_level": "A1",
+    "english_translation": "shirt",
+    "example_sentence_native": "Llevo una camisa.",
+    "example_sentence_english": "I wear a shirt.",
+    "pos": "noun"
+  },
+  {
+    "word": "perro",
+    "cefr_level": "A1",
+    "english_translation": "dog",
+    "example_sentence_native": "El perro ladra.",
+    "example_sentence_english": "The dog barks.",
+    "pos": "noun"
+  },
+  {
+    "word": "pan",
+    "cefr_level": "A1",
+    "english_translation": "bread",
+    "example_sentence_native": "Como pan.",
+    "example_sentence_english": "I eat bread.",
+    "pos": "noun"
+  },
+  {
+    "word": "ser",
+    "cefr_level": "A1",
+    "english_translation": "to be",
+    "example_sentence_native": "Yo soy estudiante.",
+    "example_sentence_english": "I am a student.",
+    "pos": "verb"
+  },
+  {
+    "word": "tener",
+    "cefr_level": "A1",
+    "english_translation": "to have",
+    "example_sentence_native": "Tengo un perro.",
+    "example_sentence_english": "I have a dog.",
+    "pos": "verb"
+  },
+  {
+    "word": "ir",
+    "cefr_level": "A1",
+    "english_translation": "to go",
+    "example_sentence_native": "Voy al mercado.",
+    "example_sentence_english": "I go to the market.",
+    "pos": "verb"
+  },
+  {
+    "word": "comer",
+    "cefr_level": "A1",
+    "english_translation": "to eat",
+    "example_sentence_native": "Como arroz.",
+    "example_sentence_english": "I eat rice.",
+    "pos": "verb"
+  },
+  {
+    "word": "beber",
+    "cefr_level": "A1",
+    "english_translation": "to drink",
+    "example_sentence_native": "Bebo jugo.",
+    "example_sentence_english": "I drink juice.",
+    "pos": "verb"
+  },
+  {
+    "word": "vivir",
+    "cefr_level": "A1",
+    "english_translation": "to live",
+    "example_sentence_native": "Vivo en Madrid.",
+    "example_sentence_english": "I live in Madrid.",
+    "pos": "verb"
+  },
+  {
+    "word": "hablar",
+    "cefr_level": "A1",
+    "english_translation": "to speak",
+    "example_sentence_native": "Hablo español.",
+    "example_sentence_english": "I speak Spanish.",
+    "pos": "verb"
+  },
+  {
+    "word": "leer",
+    "cefr_level": "A1",
+    "english_translation": "to read",
+    "example_sentence_native": "Leo una revista.",
+    "example_sentence_english": "I read a magazine.",
+    "pos": "verb"
+  },
+  {
+    "word": "escribir",
+    "cefr_level": "A1",
+    "english_translation": "to write",
+    "example_sentence_native": "Escribo una carta.",
+    "example_sentence_english": "I write a letter.",
+    "pos": "verb"
+  },
+  {
+    "word": "trabajar",
+    "cefr_level": "A1",
+    "english_translation": "to work",
+    "example_sentence_native": "Trabajo mucho.",
+    "example_sentence_english": "I work a lot.",
+    "pos": "verb"
+  },
+  {
+    "word": "jugar",
+    "cefr_level": "A1",
+    "english_translation": "to play",
+    "example_sentence_native": "Juego fútbol.",
+    "example_sentence_english": "I play soccer.",
+    "pos": "verb"
+  },
+  {
+    "word": "caminar",
+    "cefr_level": "A1",
+    "english_translation": "to walk",
+    "example_sentence_native": "Camino al parque.",
+    "example_sentence_english": "I walk to the park.",
+    "pos": "verb"
+  },
+  {
+    "word": "correr",
+    "cefr_level": "A1",
+    "english_translation": "to run",
+    "example_sentence_native": "Corro rápido.",
+    "example_sentence_english": "I run fast.",
+    "pos": "verb"
+  },
+  {
+    "word": "estudiar",
+    "cefr_level": "A1",
+    "english_translation": "to study",
+    "example_sentence_native": "Estudio matemáticas.",
+    "example_sentence_english": "I study math.",
+    "pos": "verb"
+  },
+  {
+    "word": "escuchar",
+    "cefr_level": "A1",
+    "english_translation": "to listen",
+    "example_sentence_native": "Escucho música.",
+    "example_sentence_english": "I listen to music.",
+    "pos": "verb"
+  },
+  {
+    "word": "grande",
+    "cefr_level": "A1",
+    "english_translation": "big",
+    "example_sentence_native": "La casa es grande.",
+    "example_sentence_english": "The house is big.",
+    "pos": "adjective"
+  },
+  {
+    "word": "pequeño",
+    "cefr_level": "A1",
+    "english_translation": "small",
+    "example_sentence_native": "El gato es pequeño.",
+    "example_sentence_english": "The cat is small.",
+    "pos": "adjective"
+  },
+  {
+    "word": "bueno",
+    "cefr_level": "A1",
+    "english_translation": "good",
+    "example_sentence_native": "El libro es bueno.",
+    "example_sentence_english": "The book is good.",
+    "pos": "adjective"
+  },
+  {
+    "word": "malo",
+    "cefr_level": "A1",
+    "english_translation": "bad",
+    "example_sentence_native": "El café está malo.",
+    "example_sentence_english": "The coffee is bad.",
+    "pos": "adjective"
+  },
+  {
+    "word": "feliz",
+    "cefr_level": "A1",
+    "english_translation": "happy",
+    "example_sentence_native": "Estoy feliz hoy.",
+    "example_sentence_english": "I am happy today.",
+    "pos": "adjective"
+  },
+  {
+    "word": "triste",
+    "cefr_level": "A1",
+    "english_translation": "sad",
+    "example_sentence_native": "Ella está triste.",
+    "example_sentence_english": "She is sad.",
+    "pos": "adjective"
+  },
+  {
+    "word": "nuevo",
+    "cefr_level": "A1",
+    "english_translation": "new",
+    "example_sentence_native": "Tengo un coche nuevo.",
+    "example_sentence_english": "I have a new car.",
+    "pos": "adjective"
+  },
+  {
+    "word": "viejo",
+    "cefr_level": "A1",
+    "english_translation": "old",
+    "example_sentence_native": "Mi perro es viejo.",
+    "example_sentence_english": "My dog is old.",
+    "pos": "adjective"
+  },
+  {
+    "word": "bonito",
+    "cefr_level": "A1",
+    "english_translation": "pretty",
+    "example_sentence_native": "El dibujo es bonito.",
+    "example_sentence_english": "The drawing is pretty.",
+    "pos": "adjective"
+  },
+  {
+    "word": "feo",
+    "cefr_level": "A1",
+    "english_translation": "ugly",
+    "example_sentence_native": "El monstruo es feo.",
+    "example_sentence_english": "The monster is ugly.",
+    "pos": "adjective"
+  },
+  {
+    "word": "caliente",
+    "cefr_level": "A1",
+    "english_translation": "hot",
+    "example_sentence_native": "El té está caliente.",
+    "example_sentence_english": "The tea is hot.",
+    "pos": "adjective"
+  },
+  {
+    "word": "frío",
+    "cefr_level": "A1",
+    "english_translation": "cold",
+    "example_sentence_native": "El agua está fría.",
+    "example_sentence_english": "The water is cold.",
+    "pos": "adjective"
+  },
+  {
+    "word": "rápido",
+    "cefr_level": "A1",
+    "english_translation": "fast",
+    "example_sentence_native": "El tren es rápido.",
+    "example_sentence_english": "The train is fast.",
+    "pos": "adjective"
+  },
+  {
+    "word": "lento",
+    "cefr_level": "A1",
+    "english_translation": "slow",
+    "example_sentence_native": "El caracol es lento.",
+    "example_sentence_english": "The snail is slow.",
+    "pos": "adjective"
+  },
+  {
+    "word": "fácil",
+    "cefr_level": "A1",
+    "english_translation": "easy",
+    "example_sentence_native": "La tarea es fácil.",
+    "example_sentence_english": "The homework is easy.",
+    "pos": "adjective"
+  },
+  {
+    "word": "bien",
+    "cefr_level": "A1",
+    "english_translation": "well",
+    "example_sentence_native": "Todo va bien.",
+    "example_sentence_english": "Everything is going well.",
+    "pos": "adverb"
+  },
+  {
+    "word": "mal",
+    "cefr_level": "A1",
+    "english_translation": "badly",
+    "example_sentence_native": "Me siento mal.",
+    "example_sentence_english": "I feel bad.",
+    "pos": "adverb"
+  },
+  {
+    "word": "aquí",
+    "cefr_level": "A1",
+    "english_translation": "here",
+    "example_sentence_native": "Estoy aquí.",
+    "example_sentence_english": "I am here.",
+    "pos": "adverb"
+  },
+  {
+    "word": "allí",
+    "cefr_level": "A1",
+    "english_translation": "there",
+    "example_sentence_native": "Mi mochila está allí.",
+    "example_sentence_english": "My backpack is there.",
+    "pos": "adverb"
+  },
+  {
+    "word": "hoy",
+    "cefr_level": "A1",
+    "english_translation": "today",
+    "example_sentence_native": "Es lunes hoy.",
+    "example_sentence_english": "It is Monday today.",
+    "pos": "adverb"
+  },
+  {
+    "word": "mañana",
+    "cefr_level": "A1",
+    "english_translation": "tomorrow",
+    "example_sentence_native": "Viajo mañana.",
+    "example_sentence_english": "I travel tomorrow.",
+    "pos": "adverb"
+  },
+  {
+    "word": "siempre",
+    "cefr_level": "A1",
+    "english_translation": "always",
+    "example_sentence_native": "Siempre estudio.",
+    "example_sentence_english": "I always study.",
+    "pos": "adverb"
+  },
+  {
+    "word": "nunca",
+    "cefr_level": "A1",
+    "english_translation": "never",
+    "example_sentence_native": "Nunca como carne.",
+    "example_sentence_english": "I never eat meat.",
+    "pos": "adverb"
+  },
+  {
+    "word": "temprano",
+    "cefr_level": "A1",
+    "english_translation": "early",
+    "example_sentence_native": "Llego temprano.",
+    "example_sentence_english": "I arrive early.",
+    "pos": "adverb"
+  },
+  {
+    "word": "tarde",
+    "cefr_level": "A1",
+    "english_translation": "late",
+    "example_sentence_native": "Vengo tarde.",
+    "example_sentence_english": "I come late.",
+    "pos": "adverb"
+  },
+  {
+    "word": "cerca",
+    "cefr_level": "A1",
+    "english_translation": "near",
+    "example_sentence_native": "Vivo cerca.",
+    "example_sentence_english": "I live near.",
+    "pos": "adverb"
+  },
+  {
+    "word": "lejos",
+    "cefr_level": "A1",
+    "english_translation": "far",
+    "example_sentence_native": "Trabajo lejos.",
+    "example_sentence_english": "I work far.",
+    "pos": "adverb"
+  },
+  {
+    "word": "mucho",
+    "cefr_level": "A1",
+    "english_translation": "a lot",
+    "example_sentence_native": "Estudia mucho.",
+    "example_sentence_english": "He studies a lot.",
+    "pos": "adverb"
+  },
+  {
+    "word": "poco",
+    "cefr_level": "A1",
+    "english_translation": "little",
+    "example_sentence_native": "Duerme poco.",
+    "example_sentence_english": "He sleeps little.",
+    "pos": "adverb"
+  },
+  {
+    "word": "también",
+    "cefr_level": "A1",
+    "english_translation": "also",
+    "example_sentence_native": "Yo también voy.",
+    "example_sentence_english": "I am going too.",
+    "pos": "adverb"
+  },
+  {
+    "word": "ventana",
+    "cefr_level": "A2",
+    "english_translation": "window",
+    "example_sentence_native": "Abre la ventana, por favor.",
+    "example_sentence_english": "Open the window, please.",
+    "pos": "noun"
+  },
+  {
+    "word": "camisa",
+    "cefr_level": "A2",
+    "english_translation": "shirt",
+    "example_sentence_native": "Me gusta tu camisa.",
+    "example_sentence_english": "I like your shirt.",
+    "pos": "noun"
+  },
+  {
+    "word": "calle",
+    "cefr_level": "A2",
+    "english_translation": "street",
+    "example_sentence_native": "Vivo en esta calle.",
+    "example_sentence_english": "I live on this street.",
+    "pos": "noun"
+  },
+  {
+    "word": "dinero",
+    "cefr_level": "A2",
+    "english_translation": "money",
+    "example_sentence_native": "Necesito dinero para el almuerzo.",
+    "example_sentence_english": "I need money for lunch.",
+    "pos": "noun"
+  },
+  {
+    "word": "amiga",
+    "cefr_level": "A2",
+    "english_translation": "female friend",
+    "example_sentence_native": "Mi amiga es muy simpática.",
+    "example_sentence_english": "My friend is very nice.",
+    "pos": "noun"
+  },
+  {
+    "word": "hotel",
+    "cefr_level": "A2",
+    "english_translation": "hotel",
+    "example_sentence_native": "Nos alojamos en un hotel bonito.",
+    "example_sentence_english": "We stayed in a nice hotel.",
+    "pos": "noun"
+  },
+  {
+    "word": "viaje",
+    "cefr_level": "A2",
+    "english_translation": "trip",
+    "example_sentence_native": "Nuestro viaje fue fantástico.",
+    "example_sentence_english": "Our trip was fantastic.",
+    "pos": "noun"
+  },
+  {
+    "word": "trabajo",
+    "cefr_level": "A2",
+    "english_translation": "job",
+    "example_sentence_native": "Busco un trabajo nuevo.",
+    "example_sentence_english": "I'm looking for a new job.",
+    "pos": "noun"
+  },
+  {
+    "word": "ciudad",
+    "cefr_level": "A2",
+    "english_translation": "city",
+    "example_sentence_native": "Madrid es una ciudad grande.",
+    "example_sentence_english": "Madrid is a big city.",
+    "pos": "noun"
+  },
+  {
+    "word": "ropa",
+    "cefr_level": "A2",
+    "english_translation": "clothes",
+    "example_sentence_native": "Llevo ropa cómoda hoy.",
+    "example_sentence_english": "I wear comfortable clothes today.",
+    "pos": "noun"
+  },
+  {
+    "word": "baño",
+    "cefr_level": "A2",
+    "english_translation": "bathroom",
+    "example_sentence_native": "¿Dónde está el baño?",
+    "example_sentence_english": "Where is the bathroom?",
+    "pos": "noun"
+  },
+  {
+    "word": "cine",
+    "cefr_level": "A2",
+    "english_translation": "cinema",
+    "example_sentence_native": "Vamos al cine esta noche.",
+    "example_sentence_english": "We are going to the cinema tonight.",
+    "pos": "noun"
+  },
+  {
+    "word": "pueblo",
+    "cefr_level": "A2",
+    "english_translation": "village",
+    "example_sentence_native": "Vive en un pueblo pequeño.",
+    "example_sentence_english": "He lives in a small village.",
+    "pos": "noun"
+  },
+  {
+    "word": "mercado",
+    "cefr_level": "A2",
+    "english_translation": "market",
+    "example_sentence_native": "Compro fruta en el mercado.",
+    "example_sentence_english": "I buy fruit at the market.",
+    "pos": "noun"
+  },
+  {
+    "word": "doctor",
+    "cefr_level": "A2",
+    "english_translation": "doctor",
+    "example_sentence_native": "El doctor llega pronto.",
+    "example_sentence_english": "The doctor arrives soon.",
+    "pos": "noun"
+  },
+  {
+    "word": "comer",
+    "cefr_level": "A2",
+    "english_translation": "to eat",
+    "example_sentence_native": "Quiero comer una hamburguesa.",
+    "example_sentence_english": "I want to eat a hamburger.",
+    "pos": "verb"
+  },
+  {
+    "word": "beber",
+    "cefr_level": "A2",
+    "english_translation": "to drink",
+    "example_sentence_native": "Voy a beber agua.",
+    "example_sentence_english": "I'm going to drink water.",
+    "pos": "verb"
+  },
+  {
+    "word": "vivir",
+    "cefr_level": "A2",
+    "english_translation": "to live",
+    "example_sentence_native": "Vivo en Barcelona.",
+    "example_sentence_english": "I live in Barcelona.",
+    "pos": "verb"
+  },
+  {
+    "word": "trabajar",
+    "cefr_level": "A2",
+    "english_translation": "to work",
+    "example_sentence_native": "Ella trabaja en una oficina.",
+    "example_sentence_english": "She works in an office.",
+    "pos": "verb"
+  },
+  {
+    "word": "leer",
+    "cefr_level": "A2",
+    "english_translation": "to read",
+    "example_sentence_native": "Me gusta leer libros.",
+    "example_sentence_english": "I like to read books.",
+    "pos": "verb"
+  },
+  {
+    "word": "escribir",
+    "cefr_level": "A2",
+    "english_translation": "to write",
+    "example_sentence_native": "Voy a escribir una carta.",
+    "example_sentence_english": "I am going to write a letter.",
+    "pos": "verb"
+  },
+  {
+    "word": "escuchar",
+    "cefr_level": "A2",
+    "english_translation": "to listen",
+    "example_sentence_native": "Escucho música todos los días.",
+    "example_sentence_english": "I listen to music every day.",
+    "pos": "verb"
+  },
+  {
+    "word": "caminar",
+    "cefr_level": "A2",
+    "english_translation": "to walk",
+    "example_sentence_native": "Nos gusta caminar por el parque.",
+    "example_sentence_english": "We like to walk in the park.",
+    "pos": "verb"
+  },
+  {
+    "word": "estudiar",
+    "cefr_level": "A2",
+    "english_translation": "to study",
+    "example_sentence_native": "Estudio español por la noche.",
+    "example_sentence_english": "I study Spanish at night.",
+    "pos": "verb"
+  },
+  {
+    "word": "visitar",
+    "cefr_level": "A2",
+    "english_translation": "to visit",
+    "example_sentence_native": "Voy a visitar a mis abuelos.",
+    "example_sentence_english": "I'm going to visit my grandparents.",
+    "pos": "verb"
+  },
+  {
+    "word": "comprar",
+    "cefr_level": "A2",
+    "english_translation": "to buy",
+    "example_sentence_native": "Voy a comprar pan.",
+    "example_sentence_english": "I'm going to buy bread.",
+    "pos": "verb"
+  },
+  {
+    "word": "nadar",
+    "cefr_level": "A2",
+    "english_translation": "to swim",
+    "example_sentence_native": "Me gusta nadar en el mar.",
+    "example_sentence_english": "I like to swim in the sea.",
+    "pos": "verb"
+  },
+  {
+    "word": "tomar",
+    "cefr_level": "A2",
+    "english_translation": "to take",
+    "example_sentence_native": "Tomamos el autobús a casa.",
+    "example_sentence_english": "We take the bus home.",
+    "pos": "verb"
+  },
+  {
+    "word": "descansar",
+    "cefr_level": "A2",
+    "english_translation": "to rest",
+    "example_sentence_native": "Necesito descansar un poco.",
+    "example_sentence_english": "I need to rest a little.",
+    "pos": "verb"
+  },
+  {
+    "word": "cocinar",
+    "cefr_level": "A2",
+    "english_translation": "to cook",
+    "example_sentence_native": "Ella cocina muy bien.",
+    "example_sentence_english": "She cooks very well.",
+    "pos": "verb"
+  },
+  {
+    "word": "interesante",
+    "cefr_level": "A2",
+    "english_translation": "interesting",
+    "example_sentence_native": "Es una historia interesante.",
+    "example_sentence_english": "It's an interesting story.",
+    "pos": "adjective"
+  },
+  {
+    "word": "fácil",
+    "cefr_level": "A2",
+    "english_translation": "easy",
+    "example_sentence_native": "Esta tarea es fácil.",
+    "example_sentence_english": "This task is easy.",
+    "pos": "adjective"
+  },
+  {
+    "word": "difícil",
+    "cefr_level": "A2",
+    "english_translation": "difficult",
+    "example_sentence_native": "La pregunta es difícil.",
+    "example_sentence_english": "The question is difficult.",
+    "pos": "adjective"
+  },
+  {
+    "word": "rápido",
+    "cefr_level": "A2",
+    "english_translation": "fast",
+    "example_sentence_native": "Es un coche rápido.",
+    "example_sentence_english": "It's a fast car.",
+    "pos": "adjective"
+  },
+  {
+    "word": "lento",
+    "cefr_level": "A2",
+    "english_translation": "slow",
+    "example_sentence_native": "El internet es muy lento hoy.",
+    "example_sentence_english": "The internet is very slow today.",
+    "pos": "adjective"
+  },
+  {
+    "word": "limpio",
+    "cefr_level": "A2",
+    "english_translation": "clean",
+    "example_sentence_native": "Mi cuarto está limpio.",
+    "example_sentence_english": "My room is clean.",
+    "pos": "adjective"
+  },
+  {
+    "word": "sucio",
+    "cefr_level": "A2",
+    "english_translation": "dirty",
+    "example_sentence_native": "El suelo está sucio.",
+    "example_sentence_english": "The floor is dirty.",
+    "pos": "adjective"
+  },
+  {
+    "word": "barato",
+    "cefr_level": "A2",
+    "english_translation": "cheap",
+    "example_sentence_native": "El libro es barato.",
+    "example_sentence_english": "The book is cheap.",
+    "pos": "adjective"
+  },
+  {
+    "word": "caro",
+    "cefr_level": "A2",
+    "english_translation": "expensive",
+    "example_sentence_native": "Este reloj es caro.",
+    "example_sentence_english": "This watch is expensive.",
+    "pos": "adjective"
+  },
+  {
+    "word": "nuevo",
+    "cefr_level": "A2",
+    "english_translation": "new",
+    "example_sentence_native": "Tengo un teléfono nuevo.",
+    "example_sentence_english": "I have a new phone.",
+    "pos": "adjective"
+  },
+  {
+    "word": "viejo",
+    "cefr_level": "A2",
+    "english_translation": "old",
+    "example_sentence_native": "Es un edificio viejo.",
+    "example_sentence_english": "It is an old building.",
+    "pos": "adjective"
+  },
+  {
+    "word": "cansado",
+    "cefr_level": "A2",
+    "english_translation": "tired",
+    "example_sentence_native": "Estoy muy cansado hoy.",
+    "example_sentence_english": "I am very tired today.",
+    "pos": "adjective"
+  },
+  {
+    "word": "feliz",
+    "cefr_level": "A2",
+    "english_translation": "happy",
+    "example_sentence_native": "Estoy feliz con mi trabajo.",
+    "example_sentence_english": "I'm happy with my job.",
+    "pos": "adjective"
+  },
+  {
+    "word": "triste",
+    "cefr_level": "A2",
+    "english_translation": "sad",
+    "example_sentence_native": "Está triste por la noticia.",
+    "example_sentence_english": "He is sad about the news.",
+    "pos": "adjective"
+  },
+  {
+    "word": "caliente",
+    "cefr_level": "A2",
+    "english_translation": "hot",
+    "example_sentence_native": "El café está caliente.",
+    "example_sentence_english": "The coffee is hot.",
+    "pos": "adjective"
+  },
+  {
+    "word": "ayer",
+    "cefr_level": "A2",
+    "english_translation": "yesterday",
+    "example_sentence_native": "Ayer fuimos al parque.",
+    "example_sentence_english": "Yesterday we went to the park.",
+    "pos": "adverb"
+  },
+  {
+    "word": "hoy",
+    "cefr_level": "A2",
+    "english_translation": "today",
+    "example_sentence_native": "Hoy es un buen día.",
+    "example_sentence_english": "Today is a good day.",
+    "pos": "adverb"
+  },
+  {
+    "word": "mañana",
+    "cefr_level": "A2",
+    "english_translation": "tomorrow",
+    "example_sentence_native": "Vamos a viajar mañana.",
+    "example_sentence_english": "We will travel tomorrow.",
+    "pos": "adverb"
+  },
+  {
+    "word": "siempre",
+    "cefr_level": "A2",
+    "english_translation": "always",
+    "example_sentence_native": "Siempre desayuno a las 8.",
+    "example_sentence_english": "I always have breakfast at 8.",
+    "pos": "adverb"
+  },
+  {
+    "word": "nunca",
+    "cefr_level": "A2",
+    "english_translation": "never",
+    "example_sentence_native": "Nunca como carne.",
+    "example_sentence_english": "I never eat meat.",
+    "pos": "adverb"
+  },
+  {
+    "word": "aquí",
+    "cefr_level": "A2",
+    "english_translation": "here",
+    "example_sentence_native": "Estoy aquí contigo.",
+    "example_sentence_english": "I'm here with you.",
+    "pos": "adverb"
+  },
+  {
+    "word": "allí",
+    "cefr_level": "A2",
+    "english_translation": "there",
+    "example_sentence_native": "La tienda está allí.",
+    "example_sentence_english": "The store is there.",
+    "pos": "adverb"
+  },
+  {
+    "word": "también",
+    "cefr_level": "A2",
+    "english_translation": "also",
+    "example_sentence_native": "Yo también quiero ir.",
+    "example_sentence_english": "I also want to go.",
+    "pos": "adverb"
+  },
+  {
+    "word": "solo",
+    "cefr_level": "A2",
+    "english_translation": "only",
+    "example_sentence_native": "Solo tengo diez euros.",
+    "example_sentence_english": "I only have ten euros.",
+    "pos": "adverb"
+  },
+  {
+    "word": "bien",
+    "cefr_level": "A2",
+    "english_translation": "well",
+    "example_sentence_native": "Todo salió bien.",
+    "example_sentence_english": "Everything went well.",
+    "pos": "adverb"
+  },
+  {
+    "word": "mal",
+    "cefr_level": "A2",
+    "english_translation": "badly",
+    "example_sentence_native": "Me siento mal hoy.",
+    "example_sentence_english": "I feel bad today.",
+    "pos": "adverb"
+  },
+  {
+    "word": "temprano",
+    "cefr_level": "A2",
+    "english_translation": "early",
+    "example_sentence_native": "Llegamos temprano a clase.",
+    "example_sentence_english": "We arrived early to class.",
+    "pos": "adverb"
+  },
+  {
+    "word": "tarde",
+    "cefr_level": "A2",
+    "english_translation": "late",
+    "example_sentence_native": "Llegó tarde a la reunión.",
+    "example_sentence_english": "He arrived late to the meeting.",
+    "pos": "adverb"
+  },
+  {
+    "word": "cerca",
+    "cefr_level": "A2",
+    "english_translation": "near",
+    "example_sentence_native": "Vivo cerca del parque.",
+    "example_sentence_english": "I live near the park.",
+    "pos": "adverb"
+  },
+  {
+    "word": "lejos",
+    "cefr_level": "A2",
+    "english_translation": "far",
+    "example_sentence_native": "El aeropuerto está lejos.",
+    "example_sentence_english": "The airport is far.",
+    "pos": "adverb"
+  },
+  {
+    "word": "conferencia",
+    "cefr_level": "B1",
+    "english_translation": "conference",
+    "example_sentence_native": "Asistí a una conferencia internacional.",
+    "example_sentence_english": "I attended an international conference.",
+    "pos": "noun"
+  },
+  {
+    "word": "reunión",
+    "cefr_level": "B1",
+    "english_translation": "meeting",
+    "example_sentence_native": "La reunión fue muy productiva.",
+    "example_sentence_english": "The meeting was very productive.",
+    "pos": "noun"
+  },
+  {
+    "word": "respuesta",
+    "cefr_level": "B1",
+    "english_translation": "answer",
+    "example_sentence_native": "Su respuesta fue clara.",
+    "example_sentence_english": "His answer was clear.",
+    "pos": "noun"
+  },
+  {
+    "word": "viajero",
+    "cefr_level": "B1",
+    "english_translation": "traveler",
+    "example_sentence_native": "El viajero llegó tarde.",
+    "example_sentence_english": "The traveler arrived late.",
+    "pos": "noun"
+  },
+  {
+    "word": "artículo",
+    "cefr_level": "B1",
+    "english_translation": "article",
+    "example_sentence_native": "Leí un artículo interesante.",
+    "example_sentence_english": "I read an interesting article.",
+    "pos": "noun"
+  },
+  {
+    "word": "equipo",
+    "cefr_level": "B1",
+    "english_translation": "team",
+    "example_sentence_native": "Nuestro equipo ganó el partido.",
+    "example_sentence_english": "Our team won the match.",
+    "pos": "noun"
+  },
+  {
+    "word": "negocio",
+    "cefr_level": "B1",
+    "english_translation": "business",
+    "example_sentence_native": "Tiene su propio negocio.",
+    "example_sentence_english": "He has his own business.",
+    "pos": "noun"
+  },
+  {
+    "word": "decisión",
+    "cefr_level": "B1",
+    "english_translation": "decision",
+    "example_sentence_native": "Tomó una decisión difícil.",
+    "example_sentence_english": "He made a difficult decision.",
+    "pos": "noun"
+  },
+  {
+    "word": "ambiente",
+    "cefr_level": "B1",
+    "english_translation": "environment",
+    "example_sentence_native": "El ambiente estaba tranquilo.",
+    "example_sentence_english": "The environment was calm.",
+    "pos": "noun"
+  },
+  {
+    "word": "idioma",
+    "cefr_level": "B1",
+    "english_translation": "language",
+    "example_sentence_native": "Aprender un nuevo idioma es útil.",
+    "example_sentence_english": "Learning a new language is useful.",
+    "pos": "noun"
+  },
+  {
+    "word": "ciudadano",
+    "cefr_level": "B1",
+    "english_translation": "citizen",
+    "example_sentence_native": "Cada ciudadano tiene derechos.",
+    "example_sentence_english": "Every citizen has rights.",
+    "pos": "noun"
+  },
+  {
+    "word": "mensaje",
+    "cefr_level": "B1",
+    "english_translation": "message",
+    "example_sentence_native": "Recibí tu mensaje ayer.",
+    "example_sentence_english": "I received your message yesterday.",
+    "pos": "noun"
+  },
+  {
+    "word": "señal",
+    "cefr_level": "B1",
+    "english_translation": "signal",
+    "example_sentence_native": "La señal es débil aquí.",
+    "example_sentence_english": "The signal is weak here.",
+    "pos": "noun"
+  },
+  {
+    "word": "producto",
+    "cefr_level": "B1",
+    "english_translation": "product",
+    "example_sentence_native": "Compré un producto local.",
+    "example_sentence_english": "I bought a local product.",
+    "pos": "noun"
+  },
+  {
+    "word": "mapa",
+    "cefr_level": "B1",
+    "english_translation": "map",
+    "example_sentence_native": "Consulta el mapa para llegar.",
+    "example_sentence_english": "Check the map to get there.",
+    "pos": "noun"
+  },
+  {
+    "word": "mejorar",
+    "cefr_level": "B1",
+    "english_translation": "to improve",
+    "example_sentence_native": "Necesito mejorar mi español.",
+    "example_sentence_english": "I need to improve my Spanish.",
+    "pos": "verb"
+  },
+  {
+    "word": "evitar",
+    "cefr_level": "B1",
+    "english_translation": "to avoid",
+    "example_sentence_native": "Evita comer comida chatarra.",
+    "example_sentence_english": "Avoid eating junk food.",
+    "pos": "verb"
+  },
+  {
+    "word": "cambiar",
+    "cefr_level": "B1",
+    "english_translation": "to change",
+    "example_sentence_native": "Quiero cambiar de trabajo.",
+    "example_sentence_english": "I want to change jobs.",
+    "pos": "verb"
+  },
+  {
+    "word": "lograr",
+    "cefr_level": "B1",
+    "english_translation": "to achieve",
+    "example_sentence_native": "Logró sus metas.",
+    "example_sentence_english": "He achieved his goals.",
+    "pos": "verb"
+  },
+  {
+    "word": "sugerir",
+    "cefr_level": "B1",
+    "english_translation": "to suggest",
+    "example_sentence_native": "Sugiero ir al cine.",
+    "example_sentence_english": "I suggest going to the movies.",
+    "pos": "verb"
+  },
+  {
+    "word": "aceptar",
+    "cefr_level": "B1",
+    "english_translation": "to accept",
+    "example_sentence_native": "Aceptó la oferta.",
+    "example_sentence_english": "He accepted the offer.",
+    "pos": "verb"
+  },
+  {
+    "word": "reconocer",
+    "cefr_level": "B1",
+    "english_translation": "to recognize",
+    "example_sentence_native": "Reconozco mis errores.",
+    "example_sentence_english": "I recognize my mistakes.",
+    "pos": "verb"
+  },
+  {
+    "word": "resolver",
+    "cefr_level": "B1",
+    "english_translation": "to solve",
+    "example_sentence_native": "Resolvió el problema rápidamente.",
+    "example_sentence_english": "He solved the problem quickly.",
+    "pos": "verb"
+  },
+  {
+    "word": "crear",
+    "cefr_level": "B1",
+    "english_translation": "to create",
+    "example_sentence_native": "Vamos a crear una aplicación.",
+    "example_sentence_english": "We are going to create an app.",
+    "pos": "verb"
+  },
+  {
+    "word": "suponer",
+    "cefr_level": "B1",
+    "english_translation": "to suppose",
+    "example_sentence_native": "Supongo que tienes razón.",
+    "example_sentence_english": "I suppose you're right.",
+    "pos": "verb"
+  },
+  {
+    "word": "enseñar",
+    "cefr_level": "B1",
+    "english_translation": "to teach",
+    "example_sentence_native": "Me gusta enseñar a niños.",
+    "example_sentence_english": "I like teaching children.",
+    "pos": "verb"
+  },
+  {
+    "word": "preocupar",
+    "cefr_level": "B1",
+    "english_translation": "to worry",
+    "example_sentence_native": "No te preocupes tanto.",
+    "example_sentence_english": "Don’t worry so much.",
+    "pos": "verb"
+  },
+  {
+    "word": "decidir",
+    "cefr_level": "B1",
+    "english_translation": "to decide",
+    "example_sentence_native": "Decidimos salir temprano.",
+    "example_sentence_english": "We decided to leave early.",
+    "pos": "verb"
+  },
+  {
+    "word": "intentar",
+    "cefr_level": "B1",
+    "english_translation": "to try",
+    "example_sentence_native": "Voy a intentar otra vez.",
+    "example_sentence_english": "I’m going to try again.",
+    "pos": "verb"
+  },
+  {
+    "word": "acercarse",
+    "cefr_level": "B1",
+    "english_translation": "to approach",
+    "example_sentence_native": "El tren se acerca a la estación.",
+    "example_sentence_english": "The train is approaching the station.",
+    "pos": "verb"
+  },
+  {
+    "word": "sano",
+    "cefr_level": "B1",
+    "english_translation": "healthy",
+    "example_sentence_native": "Es importante llevar un estilo de vida sano.",
+    "example_sentence_english": "It's important to lead a healthy lifestyle.",
+    "pos": "adjective"
+  },
+  {
+    "word": "sencillo",
+    "cefr_level": "B1",
+    "english_translation": "simple",
+    "example_sentence_native": "La solución es bastante sencilla.",
+    "example_sentence_english": "The solution is quite simple.",
+    "pos": "adjective"
+  },
+  {
+    "word": "fiel",
+    "cefr_level": "B1",
+    "english_translation": "faithful",
+    "example_sentence_native": "Es un perro fiel.",
+    "example_sentence_english": "He is a faithful dog.",
+    "pos": "adjective"
+  },
+  {
+    "word": "peligroso",
+    "cefr_level": "B1",
+    "english_translation": "dangerous",
+    "example_sentence_native": "Es un deporte peligroso.",
+    "example_sentence_english": "It's a dangerous sport.",
+    "pos": "adjective"
+  },
+  {
+    "word": "abierto",
+    "cefr_level": "B1",
+    "english_translation": "open",
+    "example_sentence_native": "Estoy abierto a nuevas ideas.",
+    "example_sentence_english": "I am open to new ideas.",
+    "pos": "adjective"
+  },
+  {
+    "word": "cerrado",
+    "cefr_level": "B1",
+    "english_translation": "closed",
+    "example_sentence_native": "La tienda está cerrada.",
+    "example_sentence_english": "The store is closed.",
+    "pos": "adjective"
+  },
+  {
+    "word": "rápido",
+    "cefr_level": "B1",
+    "english_translation": "fast",
+    "example_sentence_native": "Es un coche muy rápido.",
+    "example_sentence_english": "It's a very fast car.",
+    "pos": "adjective"
+  },
+  {
+    "word": "lento",
+    "cefr_level": "B1",
+    "english_translation": "slow",
+    "example_sentence_native": "El internet está lento hoy.",
+    "example_sentence_english": "The internet is slow today.",
+    "pos": "adjective"
+  },
+  {
+    "word": "útil",
+    "cefr_level": "B1",
+    "english_translation": "useful",
+    "example_sentence_native": "Esa herramienta es muy útil.",
+    "example_sentence_english": "That tool is very useful.",
+    "pos": "adjective"
+  },
+  {
+    "word": "frustrado",
+    "cefr_level": "B1",
+    "english_translation": "frustrated",
+    "example_sentence_native": "Estoy frustrado con los resultados.",
+    "example_sentence_english": "I'm frustrated with the results.",
+    "pos": "adjective"
+  },
+  {
+    "word": "agradable",
+    "cefr_level": "B1",
+    "english_translation": "pleasant",
+    "example_sentence_native": "Fue una conversación agradable.",
+    "example_sentence_english": "It was a pleasant conversation.",
+    "pos": "adjective"
+  },
+  {
+    "word": "hermoso",
+    "cefr_level": "B1",
+    "english_translation": "beautiful",
+    "example_sentence_native": "El paisaje es hermoso.",
+    "example_sentence_english": "The landscape is beautiful.",
+    "pos": "adjective"
+  },
+  {
+    "word": "educado",
+    "cefr_level": "B1",
+    "english_translation": "polite",
+    "example_sentence_native": "Es un niño muy educado.",
+    "example_sentence_english": "He's a very polite boy.",
+    "pos": "adjective"
+  },
+  {
+    "word": "exigente",
+    "cefr_level": "B1",
+    "english_translation": "demanding",
+    "example_sentence_native": "Es un jefe exigente.",
+    "example_sentence_english": "He's a demanding boss.",
+    "pos": "adjective"
+  },
+  {
+    "word": "estresante",
+    "cefr_level": "B1",
+    "english_translation": "stressful",
+    "example_sentence_native": "Tuve un día estresante.",
+    "example_sentence_english": "I had a stressful day.",
+    "pos": "adjective"
+  },
+  {
+    "word": "cuidadosamente",
+    "cefr_level": "B1",
+    "english_translation": "carefully",
+    "example_sentence_native": "Lee las instrucciones cuidadosamente.",
+    "example_sentence_english": "Read the instructions carefully.",
+    "pos": "adverb"
+  },
+  {
+    "word": "frecuentemente",
+    "cefr_level": "B1",
+    "english_translation": "frequently",
+    "example_sentence_native": "Visito a mis abuelos frecuentemente.",
+    "example_sentence_english": "I visit my grandparents frequently.",
+    "pos": "adverb"
+  },
+  {
+    "word": "naturalmente",
+    "cefr_level": "B1",
+    "english_translation": "naturally",
+    "example_sentence_native": "Ella actúa naturalmente frente a la cámara.",
+    "example_sentence_english": "She acts naturally in front of the camera.",
+    "pos": "adverb"
+  },
+  {
+    "word": "lentamente",
+    "cefr_level": "B1",
+    "english_translation": "slowly",
+    "example_sentence_native": "Habló lentamente para que todos entendieran.",
+    "example_sentence_english": "He spoke slowly so everyone could understand.",
+    "pos": "adverb"
+  },
+  {
+    "word": "amablemente",
+    "cefr_level": "B1",
+    "english_translation": "kindly",
+    "example_sentence_native": "Respondió amablemente a la pregunta.",
+    "example_sentence_english": "He answered the question kindly.",
+    "pos": "adverb"
+  },
+  {
+    "word": "rápidamente",
+    "cefr_level": "B1",
+    "english_translation": "quickly",
+    "example_sentence_native": "Terminó el trabajo rápidamente.",
+    "example_sentence_english": "He finished the work quickly.",
+    "pos": "adverb"
+  },
+  {
+    "word": "recientemente",
+    "cefr_level": "B1",
+    "english_translation": "recently",
+    "example_sentence_native": "Recientemente viajé a España.",
+    "example_sentence_english": "I recently traveled to Spain.",
+    "pos": "adverb"
+  },
+  {
+    "word": "exactamente",
+    "cefr_level": "B1",
+    "english_translation": "exactly",
+    "example_sentence_native": "Eso es exactamente lo que quería.",
+    "example_sentence_english": "That's exactly what I wanted.",
+    "pos": "adverb"
+  },
+  {
+    "word": "seguramente",
+    "cefr_level": "B1",
+    "english_translation": "surely",
+    "example_sentence_native": "Seguramente llegarán a tiempo.",
+    "example_sentence_english": "They will surely arrive on time.",
+    "pos": "adverb"
+  },
+  {
+    "word": "especialmente",
+    "cefr_level": "B1",
+    "english_translation": "especially",
+    "example_sentence_native": "Me gusta especialmente la comida italiana.",
+    "example_sentence_english": "I especially like Italian food.",
+    "pos": "adverb"
+  },
+  {
+    "word": "claramente",
+    "cefr_level": "B1",
+    "english_translation": "clearly",
+    "example_sentence_native": "Explicó el problema claramente.",
+    "example_sentence_english": "He explained the problem clearly.",
+    "pos": "adverb"
+  },
+  {
+    "word": "finalmente",
+    "cefr_level": "B1",
+    "english_translation": "finally",
+    "example_sentence_native": "Finalmente encontramos la solución.",
+    "example_sentence_english": "We finally found the solution.",
+    "pos": "adverb"
+  },
+  {
+    "word": "inmediatamente",
+    "cefr_level": "B1",
+    "english_translation": "immediately",
+    "example_sentence_native": "Llamó inmediatamente a la policía.",
+    "example_sentence_english": "He immediately called the police.",
+    "pos": "adverb"
+  },
+  {
+    "word": "tranquilamente",
+    "cefr_level": "B1",
+    "english_translation": "calmly",
+    "example_sentence_native": "Esperó tranquilamente su turno.",
+    "example_sentence_english": "He calmly waited for his turn.",
+    "pos": "adverb"
+  },
+  {
+    "word": "probablemente",
+    "cefr_level": "B1",
+    "english_translation": "probably",
+    "example_sentence_native": "Probablemente lloverá mañana.",
+    "example_sentence_english": "It will probably rain tomorrow.",
+    "pos": "adverb"
+  },
+  {
+    "word": "conocimiento",
+    "cefr_level": "B2",
+    "english_translation": "knowledge",
+    "example_sentence_native": "El conocimiento es poder.",
+    "example_sentence_english": "Knowledge is power.",
+    "pos": "noun"
+  },
+  {
+    "word": "desarrollo",
+    "cefr_level": "B2",
+    "english_translation": "development",
+    "example_sentence_native": "El desarrollo económico es esencial.",
+    "example_sentence_english": "Economic development is essential.",
+    "pos": "noun"
+  },
+  {
+    "word": "experiencia",
+    "cefr_level": "B2",
+    "english_translation": "experience",
+    "example_sentence_native": "Tiene mucha experiencia en ventas.",
+    "example_sentence_english": "He has a lot of experience in sales.",
+    "pos": "noun"
+  },
+  {
+    "word": "empresa",
+    "cefr_level": "B2",
+    "english_translation": "company",
+    "example_sentence_native": "Trabajo en una empresa internacional.",
+    "example_sentence_english": "I work at an international company.",
+    "pos": "noun"
+  },
+  {
+    "word": "negocio",
+    "cefr_level": "B2",
+    "english_translation": "business",
+    "example_sentence_native": "El negocio está creciendo rápidamente.",
+    "example_sentence_english": "The business is growing rapidly.",
+    "pos": "noun"
+  },
+  {
+    "word": "industria",
+    "cefr_level": "B2",
+    "english_translation": "industry",
+    "example_sentence_native": "La industria automotriz es competitiva.",
+    "example_sentence_english": "The automotive industry is competitive.",
+    "pos": "noun"
+  },
+  {
+    "word": "producto",
+    "cefr_level": "B2",
+    "english_translation": "product",
+    "example_sentence_native": "Este es nuestro producto más vendido.",
+    "example_sentence_english": "This is our best-selling product.",
+    "pos": "noun"
+  },
+  {
+    "word": "servicio",
+    "cefr_level": "B2",
+    "english_translation": "service",
+    "example_sentence_native": "Ofrecemos un excelente servicio al cliente.",
+    "example_sentence_english": "We offer excellent customer service.",
+    "pos": "noun"
+  },
+  {
+    "word": "mercado",
+    "cefr_level": "B2",
+    "english_translation": "market",
+    "example_sentence_native": "El mercado está cambiando constantemente.",
+    "example_sentence_english": "The market is constantly changing.",
+    "pos": "noun"
+  },
+  {
+    "word": "cliente",
+    "cefr_level": "B2",
+    "english_translation": "customer",
+    "example_sentence_native": "El cliente siempre tiene la razón.",
+    "example_sentence_english": "The customer is always right.",
+    "pos": "noun"
+  },
+  {
+    "word": "proveedor",
+    "cefr_level": "B2",
+    "english_translation": "supplier",
+    "example_sentence_native": "Contactamos al proveedor ayer.",
+    "example_sentence_english": "We contacted the supplier yesterday.",
+    "pos": "noun"
+  },
+  {
+    "word": "competencia",
+    "cefr_level": "B2",
+    "english_translation": "competition",
+    "example_sentence_native": "La competencia es fuerte.",
+    "example_sentence_english": "The competition is strong.",
+    "pos": "noun"
+  },
+  {
+    "word": "recurso",
+    "cefr_level": "B2",
+    "english_translation": "resource",
+    "example_sentence_native": "El agua es un recurso vital.",
+    "example_sentence_english": "Water is a vital resource.",
+    "pos": "noun"
+  },
+  {
+    "word": "política",
+    "cefr_level": "B2",
+    "english_translation": "policy",
+    "example_sentence_native": "La nueva política es efectiva.",
+    "example_sentence_english": "The new policy is effective.",
+    "pos": "noun"
+  },
+  {
+    "word": "tecnología",
+    "cefr_level": "B2",
+    "english_translation": "technology",
+    "example_sentence_native": "La tecnología avanza rápidamente.",
+    "example_sentence_english": "Technology advances rapidly.",
+    "pos": "noun"
+  },
+  {
+    "word": "superar",
+    "cefr_level": "B2",
+    "english_translation": "to overcome",
+    "example_sentence_native": "Puedes superar cualquier obstáculo.",
+    "example_sentence_english": "You can overcome any obstacle.",
+    "pos": "verb"
+  },
+  {
+    "word": "gestionar",
+    "cefr_level": "B2",
+    "english_translation": "to manage",
+    "example_sentence_native": "Sé cómo gestionar un equipo.",
+    "example_sentence_english": "I know how to manage a team.",
+    "pos": "verb"
+  },
+  {
+    "word": "invertir",
+    "cefr_level": "B2",
+    "english_translation": "to invest",
+    "example_sentence_native": "Vamos a invertir en el proyecto.",
+    "example_sentence_english": "We are going to invest in the project.",
+    "pos": "verb"
+  },
+  {
+    "word": "ahorrar",
+    "cefr_level": "B2",
+    "english_translation": "to save",
+    "example_sentence_native": "Necesito ahorrar más dinero.",
+    "example_sentence_english": "I need to save more money.",
+    "pos": "verb"
+  },
+  {
+    "word": "aumentar",
+    "cefr_level": "B2",
+    "english_translation": "to increase",
+    "example_sentence_native": "Queremos aumentar las ventas.",
+    "example_sentence_english": "We want to increase sales.",
+    "pos": "verb"
+  },
+  {
+    "word": "reducir",
+    "cefr_level": "B2",
+    "english_translation": "to reduce",
+    "example_sentence_native": "Necesitamos reducir costos.",
+    "example_sentence_english": "We need to reduce costs.",
+    "pos": "verb"
+  },
+  {
+    "word": "negociar",
+    "cefr_level": "B2",
+    "english_translation": "to negotiate",
+    "example_sentence_native": "Vamos a negociar el contrato.",
+    "example_sentence_english": "We will negotiate the contract.",
+    "pos": "verb"
+  },
+  {
+    "word": "lograr",
+    "cefr_level": "B2",
+    "english_translation": "to achieve",
+    "example_sentence_native": "Logramos nuestros objetivos.",
+    "example_sentence_english": "We achieved our goals.",
+    "pos": "verb"
+  },
+  {
+    "word": "mejorar",
+    "cefr_level": "B2",
+    "english_translation": "to improve",
+    "example_sentence_native": "Quiero mejorar mis habilidades.",
+    "example_sentence_english": "I want to improve my skills.",
+    "pos": "verb"
+  },
+  {
+    "word": "crear",
+    "cefr_level": "B2",
+    "english_translation": "to create",
+    "example_sentence_native": "Vamos a crear un nuevo diseño.",
+    "example_sentence_english": "We will create a new design.",
+    "pos": "verb"
+  },
+  {
+    "word": "apoyar",
+    "cefr_level": "B2",
+    "english_translation": "to support",
+    "example_sentence_native": "Siempre te voy a apoyar.",
+    "example_sentence_english": "I will always support you.",
+    "pos": "verb"
+  },
+  {
+    "word": "desarrollar",
+    "cefr_level": "B2",
+    "english_translation": "to develop",
+    "example_sentence_native": "Estamos desarrollando un nuevo producto.",
+    "example_sentence_english": "We are developing a new product.",
+    "pos": "verb"
+  },
+  {
+    "word": "establecer",
+    "cefr_level": "B2",
+    "english_translation": "to establish",
+    "example_sentence_native": "Queremos establecer una base sólida.",
+    "example_sentence_english": "We want to establish a solid base.",
+    "pos": "verb"
+  },
+  {
+    "word": "comunicar",
+    "cefr_level": "B2",
+    "english_translation": "to communicate",
+    "example_sentence_native": "Es importante comunicar claramente.",
+    "example_sentence_english": "It is important to communicate clearly.",
+    "pos": "verb"
+  },
+  {
+    "word": "producir",
+    "cefr_level": "B2",
+    "english_translation": "to produce",
+    "example_sentence_native": "Nuestra fábrica puede producir más.",
+    "example_sentence_english": "Our factory can produce more.",
+    "pos": "verb"
+  },
+  {
+    "word": "eficiente",
+    "cefr_level": "B2",
+    "english_translation": "efficient",
+    "example_sentence_native": "Es un sistema eficiente.",
+    "example_sentence_english": "It is an efficient system.",
+    "pos": "adjective"
+  },
+  {
+    "word": "competente",
+    "cefr_level": "B2",
+    "english_translation": "competent",
+    "example_sentence_native": "Ella es muy competente.",
+    "example_sentence_english": "She is very competent.",
+    "pos": "adjective"
+  },
+  {
+    "word": "rentable",
+    "cefr_level": "B2",
+    "english_translation": "profitable",
+    "example_sentence_native": "El negocio es rentable.",
+    "example_sentence_english": "The business is profitable.",
+    "pos": "adjective"
+  },
+  {
+    "word": "sostenible",
+    "cefr_level": "B2",
+    "english_translation": "sustainable",
+    "example_sentence_native": "Queremos un modelo sostenible.",
+    "example_sentence_english": "We want a sustainable model.",
+    "pos": "adjective"
+  },
+  {
+    "word": "estratégico",
+    "cefr_level": "B2",
+    "english_translation": "strategic",
+    "example_sentence_native": "Es una decisión estratégica.",
+    "example_sentence_english": "It is a strategic decision.",
+    "pos": "adjective"
+  },
+  {
+    "word": "innovador",
+    "cefr_level": "B2",
+    "english_translation": "innovative",
+    "example_sentence_native": "Tienen un enfoque innovador.",
+    "example_sentence_english": "They have an innovative approach.",
+    "pos": "adjective"
+  },
+  {
+    "word": "complejo",
+    "cefr_level": "B2",
+    "english_translation": "complex",
+    "example_sentence_native": "Es un problema complejo.",
+    "example_sentence_english": "It is a complex problem.",
+    "pos": "adjective"
+  },
+  {
+    "word": "temprano",
+    "cefr_level": "B2",
+    "english_translation": "early",
+    "example_sentence_native": "Llegó en la mañana temprana.",
+    "example_sentence_english": "He arrived in the early morning.",
+    "pos": "adjective"
+  },
+  {
+    "word": "adecuado",
+    "cefr_level": "B2",
+    "english_translation": "adequate",
+    "example_sentence_native": "El método es adecuado.",
+    "example_sentence_english": "The method is adequate.",
+    "pos": "adjective"
+  },
+  {
+    "word": "flexible",
+    "cefr_level": "B2",
+    "english_translation": "flexible",
+    "example_sentence_native": "Tenemos un horario flexible.",
+    "example_sentence_english": "We have a flexible schedule.",
+    "pos": "adjective"
+  },
+  {
+    "word": "frecuente",
+    "cefr_level": "B2",
+    "english_translation": "frequent",
+    "example_sentence_native": "Las visitas son frecuentes.",
+    "example_sentence_english": "The visits are frequent.",
+    "pos": "adjective"
+  },
+  {
+    "word": "agradable",
+    "cefr_level": "B2",
+    "english_translation": "pleasant",
+    "example_sentence_native": "Fue una experiencia agradable.",
+    "example_sentence_english": "It was a pleasant experience.",
+    "pos": "adjective"
+  },
+  {
+    "word": "confiable",
+    "cefr_level": "B2",
+    "english_translation": "reliable",
+    "example_sentence_native": "Es un coche confiable.",
+    "example_sentence_english": "It is a reliable car.",
+    "pos": "adjective"
+  },
+  {
+    "word": "disponible",
+    "cefr_level": "B2",
+    "english_translation": "available",
+    "example_sentence_native": "Está disponible ahora.",
+    "example_sentence_english": "It is available now.",
+    "pos": "adjective"
+  },
+  {
+    "word": "cómodo",
+    "cefr_level": "B2",
+    "english_translation": "comfortable",
+    "example_sentence_native": "Este sillón es cómodo.",
+    "example_sentence_english": "This armchair is comfortable.",
+    "pos": "adjective"
+  },
+  {
+    "word": "eficazmente",
+    "cefr_level": "B2",
+    "english_translation": "effectively",
+    "example_sentence_native": "Trabaja eficazmente bajo presión.",
+    "example_sentence_english": "He works effectively under pressure.",
+    "pos": "adverb"
+  },
+  {
+    "word": "frecuentemente",
+    "cefr_level": "B2",
+    "english_translation": "frequently",
+    "example_sentence_native": "Ella viaja frecuentemente.",
+    "example_sentence_english": "She travels frequently.",
+    "pos": "adverb"
+  },
+  {
+    "word": "aproximadamente",
+    "cefr_level": "B2",
+    "english_translation": "approximately",
+    "example_sentence_native": "Llegarán aproximadamente a las cinco.",
+    "example_sentence_english": "They will arrive at approximately five.",
+    "pos": "adverb"
+  },
+  {
+    "word": "relativamente",
+    "cefr_level": "B2",
+    "english_translation": "relatively",
+    "example_sentence_native": "Es relativamente fácil.",
+    "example_sentence_english": "It is relatively easy.",
+    "pos": "adverb"
+  },
+  {
+    "word": "inmediatamente",
+    "cefr_level": "B2",
+    "english_translation": "immediately",
+    "example_sentence_native": "Lo haré inmediatamente.",
+    "example_sentence_english": "I will do it immediately.",
+    "pos": "adverb"
+  },
+  {
+    "word": "constantemente",
+    "cefr_level": "B2",
+    "english_translation": "constantly",
+    "example_sentence_native": "Está constantemente ocupado.",
+    "example_sentence_english": "He is constantly busy.",
+    "pos": "adverb"
+  },
+  {
+    "word": "posiblemente",
+    "cefr_level": "B2",
+    "english_translation": "possibly",
+    "example_sentence_native": "Posiblemente llegue tarde.",
+    "example_sentence_english": "I may arrive late.",
+    "pos": "adverb"
+  },
+  {
+    "word": "finalmente",
+    "cefr_level": "B2",
+    "english_translation": "finally",
+    "example_sentence_native": "Finalmente terminó el trabajo.",
+    "example_sentence_english": "He finally finished the job.",
+    "pos": "adverb"
+  },
+  {
+    "word": "recientemente",
+    "cefr_level": "B2",
+    "english_translation": "recently",
+    "example_sentence_native": "Recientemente cambió de empleo.",
+    "example_sentence_english": "He recently changed jobs.",
+    "pos": "adverb"
+  },
+  {
+    "word": "claramente",
+    "cefr_level": "B2",
+    "english_translation": "clearly",
+    "example_sentence_native": "Habla claramente.",
+    "example_sentence_english": "He speaks clearly.",
+    "pos": "adverb"
+  },
+  {
+    "word": "lentamente",
+    "cefr_level": "B2",
+    "english_translation": "slowly",
+    "example_sentence_native": "Conduce lentamente.",
+    "example_sentence_english": "He drives slowly.",
+    "pos": "adverb"
+  },
+  {
+    "word": "rápidamente",
+    "cefr_level": "B2",
+    "english_translation": "quickly",
+    "example_sentence_native": "Corrió rápidamente.",
+    "example_sentence_english": "He ran quickly.",
+    "pos": "adverb"
+  },
+  {
+    "word": "cuidadosamente",
+    "cefr_level": "B2",
+    "english_translation": "carefully",
+    "example_sentence_native": "Escucha cuidadosamente.",
+    "example_sentence_english": "Listen carefully.",
+    "pos": "adverb"
+  },
+  {
+    "word": "progresivamente",
+    "cefr_level": "B2",
+    "english_translation": "progressively",
+    "example_sentence_native": "Mejoró progresivamente.",
+    "example_sentence_english": "He improved progressively.",
+    "pos": "adverb"
+  },
+  {
+    "word": "eficientemente",
+    "cefr_level": "B2",
+    "english_translation": "efficiently",
+    "example_sentence_native": "Trabajamos eficientemente.",
+    "example_sentence_english": "We work efficiently.",
+    "pos": "adverb"
+  },
+  {
+    "word": "inconmensurable",
+    "cefr_level": "C1",
+    "english_translation": "immeasurable",
+    "example_sentence_native": "El valor de su ayuda es inconmensurable.",
+    "example_sentence_english": "The value of his help is immeasurable.",
+    "pos": "adjective"
+  },
+  {
+    "word": "efímero",
+    "cefr_level": "C1",
+    "english_translation": "ephemeral",
+    "example_sentence_native": "La fama es efímera.",
+    "example_sentence_english": "Fame is ephemeral.",
+    "pos": "adjective"
+  },
+  {
+    "word": "prescindible",
+    "cefr_level": "C1",
+    "english_translation": "dispensable",
+    "example_sentence_native": "Esa herramienta es prescindible.",
+    "example_sentence_english": "That tool is dispensable.",
+    "pos": "adjective"
+  },
+  {
+    "word": "abrumador",
+    "cefr_level": "C1",
+    "english_translation": "overwhelming",
+    "example_sentence_native": "El trabajo era abrumador.",
+    "example_sentence_english": "The work was overwhelming.",
+    "pos": "adjective"
+  },
+  {
+    "word": "pertinaz",
+    "cefr_level": "C1",
+    "english_translation": "persistent",
+    "example_sentence_native": "Una lluvia pertinaz cayó toda la noche.",
+    "example_sentence_english": "A persistent rain fell all night.",
+    "pos": "adjective"
+  },
+  {
+    "word": "tajante",
+    "cefr_level": "C1",
+    "english_translation": "blunt",
+    "example_sentence_native": "Dio una respuesta tajante.",
+    "example_sentence_english": "He gave a blunt answer.",
+    "pos": "adjective"
+  },
+  {
+    "word": "acerbo",
+    "cefr_level": "C1",
+    "english_translation": "harsh",
+    "example_sentence_native": "Un comentario acerbo puede herir.",
+    "example_sentence_english": "A harsh comment can hurt.",
+    "pos": "adjective"
+  },
+  {
+    "word": "prolífico",
+    "cefr_level": "C1",
+    "english_translation": "prolific",
+    "example_sentence_native": "Es un autor prolífico.",
+    "example_sentence_english": "He is a prolific author.",
+    "pos": "adjective"
+  },
+  {
+    "word": "conciso",
+    "cefr_level": "C1",
+    "english_translation": "concise",
+    "example_sentence_native": "Un informe conciso es más efectivo.",
+    "example_sentence_english": "A concise report is more effective.",
+    "pos": "adjective"
+  },
+  {
+    "word": "nítido",
+    "cefr_level": "C1",
+    "english_translation": "clear, sharp",
+    "example_sentence_native": "La imagen es muy nítida.",
+    "example_sentence_english": "The image is very sharp.",
+    "pos": "adjective"
+  },
+  {
+    "word": "enigmático",
+    "cefr_level": "C1",
+    "english_translation": "enigmatic",
+    "example_sentence_native": "Tiene una sonrisa enigmática.",
+    "example_sentence_english": "He has an enigmatic smile.",
+    "pos": "adjective"
+  },
+  {
+    "word": "audaz",
+    "cefr_level": "C1",
+    "english_translation": "bold",
+    "example_sentence_native": "Hizo un movimiento audaz.",
+    "example_sentence_english": "He made a bold move.",
+    "pos": "adjective"
+  },
+  {
+    "word": "implacable",
+    "cefr_level": "C1",
+    "english_translation": "relentless",
+    "example_sentence_native": "El juez fue implacable.",
+    "example_sentence_english": "The judge was relentless.",
+    "pos": "adjective"
+  },
+  {
+    "word": "tenaz",
+    "cefr_level": "C1",
+    "english_translation": "tenacious",
+    "example_sentence_native": "Es una persona tenaz.",
+    "example_sentence_english": "He is a tenacious person.",
+    "pos": "adjective"
+  },
+  {
+    "word": "sagaz",
+    "cefr_level": "C1",
+    "english_translation": "shrewd",
+    "example_sentence_native": "Fue una observación sagaz.",
+    "example_sentence_english": "That was a shrewd observation.",
+    "pos": "adjective"
+  },
+  {
+    "word": "acertar",
+    "cefr_level": "C1",
+    "english_translation": "to get right",
+    "example_sentence_native": "Logró acertar todas las respuestas.",
+    "example_sentence_english": "He managed to get all the answers right.",
+    "pos": "verb"
+  },
+  {
+    "word": "derrochar",
+    "cefr_level": "C1",
+    "english_translation": "to squander",
+    "example_sentence_native": "No deberías derrochar el dinero.",
+    "example_sentence_english": "You shouldn't squander money.",
+    "pos": "verb"
+  },
+  {
+    "word": "suscitar",
+    "cefr_level": "C1",
+    "english_translation": "to provoke",
+    "example_sentence_native": "Su discurso suscitó preguntas.",
+    "example_sentence_english": "His speech provoked questions.",
+    "pos": "verb"
+  },
+  {
+    "word": "rebatir",
+    "cefr_level": "C1",
+    "english_translation": "to refute",
+    "example_sentence_native": "Rebatió cada argumento con evidencia.",
+    "example_sentence_english": "He refuted every argument with evidence.",
+    "pos": "verb"
+  },
+  {
+    "word": "aludir",
+    "cefr_level": "C1",
+    "english_translation": "to allude",
+    "example_sentence_native": "Aludió al problema sin nombrarlo.",
+    "example_sentence_english": "He alluded to the problem without naming it.",
+    "pos": "verb"
+  },
+  {
+    "word": "delimitar",
+    "cefr_level": "C1",
+    "english_translation": "to delimit",
+    "example_sentence_native": "Hay que delimitar bien los temas.",
+    "example_sentence_english": "The topics must be well delimited.",
+    "pos": "verb"
+  },
+  {
+    "word": "indagar",
+    "cefr_level": "C1",
+    "english_translation": "to investigate",
+    "example_sentence_native": "La policía indagó el caso a fondo.",
+    "example_sentence_english": "The police investigated the case thoroughly.",
+    "pos": "verb"
+  },
+  {
+    "word": "alegar",
+    "cefr_level": "C1",
+    "english_translation": "to claim",
+    "example_sentence_native": "Alegó razones personales.",
+    "example_sentence_english": "He claimed personal reasons.",
+    "pos": "verb"
+  },
+  {
+    "word": "vislumbrar",
+    "cefr_level": "C1",
+    "english_translation": "to glimpse",
+    "example_sentence_native": "Pudimos vislumbrar el futuro.",
+    "example_sentence_english": "We could glimpse the future.",
+    "pos": "verb"
+  },
+  {
+    "word": "conciliar",
+    "cefr_level": "C1",
+    "english_translation": "to reconcile",
+    "example_sentence_native": "Conciliar trabajo y familia es difícil.",
+    "example_sentence_english": "Balancing work and family is hard.",
+    "pos": "verb"
+  },
+  {
+    "word": "rescindir",
+    "cefr_level": "C1",
+    "english_translation": "to terminate",
+    "example_sentence_native": "Rescindieron el contrato.",
+    "example_sentence_english": "They terminated the contract.",
+    "pos": "verb"
+  },
+  {
+    "word": "declinar",
+    "cefr_level": "C1",
+    "english_translation": "to decline",
+    "example_sentence_native": "Declinó la oferta educadamente.",
+    "example_sentence_english": "He politely declined the offer.",
+    "pos": "verb"
+  },
+  {
+    "word": "exhortar",
+    "cefr_level": "C1",
+    "english_translation": "to urge",
+    "example_sentence_native": "Exhortó a los alumnos a estudiar.",
+    "example_sentence_english": "He urged the students to study.",
+    "pos": "verb"
+  },
+  {
+    "word": "emerger",
+    "cefr_level": "C1",
+    "english_translation": "to emerge",
+    "example_sentence_native": "La verdad comenzó a emerger.",
+    "example_sentence_english": "The truth began to emerge.",
+    "pos": "verb"
+  },
+  {
+    "word": "afrontar",
+    "cefr_level": "C1",
+    "english_translation": "to confront",
+    "example_sentence_native": "Debes afrontar tus miedos.",
+    "example_sentence_english": "You must confront your fears.",
+    "pos": "verb"
+  },
+  {
+    "word": "premisa",
+    "cefr_level": "C1",
+    "english_translation": "premise",
+    "example_sentence_native": "Partimos de una premisa equivocada.",
+    "example_sentence_english": "We started from a wrong premise.",
+    "pos": "noun"
+  },
+  {
+    "word": "matiz",
+    "cefr_level": "C1",
+    "english_translation": "nuance",
+    "example_sentence_native": "Ese matiz cambia todo.",
+    "example_sentence_english": "That nuance changes everything.",
+    "pos": "noun"
+  },
+  {
+    "word": "paradigma",
+    "cefr_level": "C1",
+    "english_translation": "paradigm",
+    "example_sentence_native": "Un nuevo paradigma científico surgió.",
+    "example_sentence_english": "A new scientific paradigm emerged.",
+    "pos": "noun"
+  },
+  {
+    "word": "resquicio",
+    "cefr_level": "C1",
+    "english_translation": "crack, loophole",
+    "example_sentence_native": "Encontró un resquicio legal.",
+    "example_sentence_english": "He found a legal loophole.",
+    "pos": "noun"
+  },
+  {
+    "word": "derroche",
+    "cefr_level": "C1",
+    "english_translation": "waste",
+    "example_sentence_native": "Ese gasto fue un derroche.",
+    "example_sentence_english": "That expense was a waste.",
+    "pos": "noun"
+  },
+  {
+    "word": "repercusión",
+    "cefr_level": "C1",
+    "english_translation": "impact",
+    "example_sentence_native": "Tuvo una gran repercusión.",
+    "example_sentence_english": "It had a big impact.",
+    "pos": "noun"
+  },
+  {
+    "word": "dilema",
+    "cefr_level": "C1",
+    "english_translation": "dilemma",
+    "example_sentence_native": "Estoy en un dilema.",
+    "example_sentence_english": "I'm in a dilemma.",
+    "pos": "noun"
+  },
+  {
+    "word": "travesía",
+    "cefr_level": "C1",
+    "english_translation": "journey",
+    "example_sentence_native": "La travesía fue larga.",
+    "example_sentence_english": "The journey was long.",
+    "pos": "noun"
+  },
+  {
+    "word": "auge",
+    "cefr_level": "C1",
+    "english_translation": "boom, rise",
+    "example_sentence_native": "El auge tecnológico continúa.",
+    "example_sentence_english": "The tech boom continues.",
+    "pos": "noun"
+  },
+  {
+    "word": "reparo",
+    "cefr_level": "C1",
+    "english_translation": "objection",
+    "example_sentence_native": "No tengo reparos en hacerlo.",
+    "example_sentence_english": "I have no objection to doing it.",
+    "pos": "noun"
+  },
+  {
+    "word": "ímpetu",
+    "cefr_level": "C1",
+    "english_translation": "momentum",
+    "example_sentence_native": "El proyecto perdió ímpetu.",
+    "example_sentence_english": "The project lost momentum.",
+    "pos": "noun"
+  },
+  {
+    "word": "desdén",
+    "cefr_level": "C1",
+    "english_translation": "disdain",
+    "example_sentence_native": "Lo miró con desdén.",
+    "example_sentence_english": "He looked at him with disdain.",
+    "pos": "noun"
+  },
+  {
+    "word": "hito",
+    "cefr_level": "C1",
+    "english_translation": "milestone",
+    "example_sentence_native": "Es un hito histórico.",
+    "example_sentence_english": "It’s a historic milestone.",
+    "pos": "noun"
+  },
+  {
+    "word": "reticencia",
+    "cefr_level": "C1",
+    "english_translation": "reluctance",
+    "example_sentence_native": "Mostró cierta reticencia.",
+    "example_sentence_english": "He showed some reluctance.",
+    "pos": "noun"
+  },
+  {
+    "word": "premio",
+    "cefr_level": "C1",
+    "english_translation": "award",
+    "example_sentence_native": "Ganó el premio nacional.",
+    "example_sentence_english": "He won the national award.",
+    "pos": "noun"
+  },
+  {
+    "word": "paulatinamente",
+    "cefr_level": "C1",
+    "english_translation": "gradually",
+    "example_sentence_native": "El cambio ocurrió paulatinamente.",
+    "example_sentence_english": "The change happened gradually.",
+    "pos": "adverb"
+  },
+  {
+    "word": "efectivamente",
+    "cefr_level": "C1",
+    "english_translation": "effectively",
+    "example_sentence_native": "Efectivamente, tenía razón.",
+    "example_sentence_english": "Indeed, he was right.",
+    "pos": "adverb"
+  },
+  {
+    "word": "tajantemente",
+    "cefr_level": "C1",
+    "english_translation": "categorically",
+    "example_sentence_native": "Negó tajantemente los hechos.",
+    "example_sentence_english": "He categorically denied the facts.",
+    "pos": "adverb"
+  },
+  {
+    "word": "precisamente",
+    "cefr_level": "C1",
+    "english_translation": "precisely",
+    "example_sentence_native": "Eso es precisamente lo que dije.",
+    "example_sentence_english": "That's exactly what I said.",
+    "pos": "adverb"
+  },
+  {
+    "word": "incluso",
+    "cefr_level": "C1",
+    "english_translation": "even",
+    "example_sentence_native": "Incluso él lo sabía.",
+    "example_sentence_english": "Even he knew it.",
+    "pos": "adverb"
+  },
+  {
+    "word": "no obstante",
+    "cefr_level": "C1",
+    "english_translation": "however",
+    "example_sentence_native": "No obstante, seguimos adelante.",
+    "example_sentence_english": "However, we carried on.",
+    "pos": "adverb"
+  },
+  {
+    "word": "apenas",
+    "cefr_level": "C1",
+    "english_translation": "barely",
+    "example_sentence_native": "Apenas llegó a tiempo.",
+    "example_sentence_english": "He barely made it on time.",
+    "pos": "adverb"
+  },
+  {
+    "word": "previamente",
+    "cefr_level": "C1",
+    "english_translation": "previously",
+    "example_sentence_native": "Había sido discutido previamente.",
+    "example_sentence_english": "It had been previously discussed.",
+    "pos": "adverb"
+  },
+  {
+    "word": "eventualmente",
+    "cefr_level": "C1",
+    "english_translation": "eventually",
+    "example_sentence_native": "Eventualmente se resolvió.",
+    "example_sentence_english": "Eventually it was resolved.",
+    "pos": "adverb"
+  },
+  {
+    "word": "constantemente",
+    "cefr_level": "C1",
+    "english_translation": "constantly",
+    "example_sentence_native": "Se queja constantemente.",
+    "example_sentence_english": "He complains constantly.",
+    "pos": "adverb"
+  },
+  {
+    "word": "simultáneamente",
+    "cefr_level": "C1",
+    "english_translation": "simultaneously",
+    "example_sentence_native": "Ocurrió simultáneamente en dos lugares.",
+    "example_sentence_english": "It happened simultaneously in two places.",
+    "pos": "adverb"
+  },
+  {
+    "word": "inevitablemente",
+    "cefr_level": "C1",
+    "english_translation": "inevitably",
+    "example_sentence_native": "Inevitablemente falló.",
+    "example_sentence_english": "It inevitably failed.",
+    "pos": "adverb"
+  },
+  {
+    "word": "deliberadamente",
+    "cefr_level": "C1",
+    "english_translation": "deliberately",
+    "example_sentence_native": "Lo hizo deliberadamente.",
+    "example_sentence_english": "He did it deliberately.",
+    "pos": "adverb"
+  },
+  {
+    "word": "cautelosamente",
+    "cefr_level": "C1",
+    "english_translation": "cautiously",
+    "example_sentence_native": "Avanzaron cautelosamente.",
+    "example_sentence_english": "They advanced cautiously.",
+    "pos": "adverb"
+  },
+  {
+    "word": "estéticamente",
+    "cefr_level": "C1",
+    "english_translation": "aesthetically",
+    "example_sentence_native": "Estéticamente es agradable.",
+    "example_sentence_english": "It is aesthetically pleasing.",
+    "pos": "adverb"
+  }
+]
