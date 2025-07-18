@@ -34,6 +34,7 @@ const seeAllWords = document.getElementById("see-all-words");
 const displayWordText = document.getElementById("display-word-text");
 const displayList = document.getElementById("display-list");
 const answerContainer = document.getElementsByClassName("answer-container");
+const searchContainer = document.getElementById("search-container");
 //----------------------------------------------------------------<Change the selected btn>
 //when user clicked the btn, remove ".level-btn selected" (alreday cliced btn),
 // and then add ".level-btn selected " to the btn which user clicked
@@ -78,6 +79,8 @@ function changeBtn(levelBtns, posBtns) {
           startNextBtn.classList.add("start");
 
           startNextBtn.classList.remove("next");
+
+          displayListF(wordsList[levelValue]?.[posValue]);
         }
       });
     });
@@ -114,7 +117,6 @@ function getWords(levelValue, posValue) {
 
   leftList = list.filter((list) => list != ans);
 
-  displayListF(list);
   const falseList = list.filter((list) => list != ans);
 
   displayWordText.innerText = `${ans.word}`;
@@ -125,10 +127,10 @@ startNextBtn.addEventListener("click", function () {
   if (startNextBtn.classList.contains("next")) {
     hasCorrect = false;
   }
-  if (leftList > 0) {
-    getWords(levelValue, posValue);
+  if (leftList.length > 0) {
+    getWords(statesObj.level, statesObj.pos);
   } else {
-    answerContainer.innerHTML = "<p>Completed!</p>";
+    answerContainer[0].innerHTML = "<p>Completed!</p>";
   }
 });
 
@@ -158,9 +160,6 @@ function renderAnswer(falseList, correctAns) {
     hasCorrect = true;
     alert("Correct!");
   });
-  if (hasCorrect === true) {
-    nextBtn();
-  }
 }
 
 let isDisplay = false;
@@ -168,21 +167,64 @@ seeAllWords.addEventListener("click", function () {
   isDisplay = !isDisplay;
   if (isDisplay === false) {
     displayList.style.display = "none";
+    searchContainer.style.display = "none";
   } else if (isDisplay === true) {
     displayList.style.display = "block";
+    searchContainer.style.display = "flex";
   }
 });
 
 function displayListF(list) {
+  displayList.innerHTML = "";
+  searchContainer.innerHTML = `
+          <div id="search">
+            <input type="text" id="search-input">
+            <button id="search-btn">🔍</button>
+          </div>`;
+
+  renderLists(list);
+
+  search(list);
+}
+
+function renderLists(list) {
   for (let i = 0; i < list.length; i++) {
     displayList.innerHTML += `                
-                <li>
+                <li class="list">
                     <ul>
-                        <li>Word in Spanish: ${list[i].word}</li>
-                        <li>English translation: ${list[i].english_translation}</li>
-                        <li>Example sentence in Spanish: ${list[i].example_sentence_native}</li>
-                        <li>Example sentence in English: ${list[i].example_sentence_english}</li>
+                        <li><span id="bold">Word in Spanish:</span> ${list[i].word}</li>
+                        <li><span id="bold">English translation:</span> ${list[i].english_translation}</li>
+                        <li><span id="bold">Example sentence in Spanish:</span> ${list[i].example_sentence_native}</li>
+                        <li><span id="bold">Example sentence in English:</span> ${list[i].example_sentence_english}</li>
                     </ul>
                 </li>`;
   }
+}
+//Search
+
+function search(list) {
+  const searchBtn = document.querySelector("#search-btn");
+  searchBtn.addEventListener("click", function () {
+    findMarchWord(list);
+  });
+}
+//[{}.{},]
+function findMarchWord(lists) {
+  const searchInput = document.querySelector("#search-input");
+  const keyword = searchInput.value.trim();
+  const regexp = new RegExp(keyword, "gi");
+  //check if there is any mached word
+  const matchedWord = lists.filter(
+    (list) =>
+      regexp.test(list.word) ||
+      regexp.test(list.english_translation) ||
+      regexp.test(list.example_sentence_native) ||
+      regexp.test(list.example_sentence_english)
+  );
+
+  console.log(lists);
+  console.log(matchedWord);
+
+  displayList.innerHTML = "";
+  renderLists(matchedWord);
 }

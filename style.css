@@ -1,12 +1,15 @@
 .container {
-  max-width: 600px;
+  font-family: "Poppins", "Segoe UI", "Helvetica Neue", sans-serif;
+  width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: burlywood;
+  background-color: #fff8ed;
 }
+
 .quiz-section {
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: azure;
@@ -17,66 +20,142 @@
   justify-content: space-between;
   display: flex;
   flex-direction: row;
-  border: thin solid orange;
+}
+
+button {
+  font-weight: bold;
+  color: #333333;
 }
 
 .btns button,
 .pos button {
-  width: 70px;
+  width: 99px;
   margin: 5px;
+  background-color: #ffdab9;
+  color: #333;
+  border: 2px solid #e0b27a;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
+
+button.level-btn:hover,
+button.pos-btn:hover {
+  background-color: #ffd3a3;
+}
+
 #display-word-el {
   margin-top: 5px;
   padding: 5px;
-  border: thin solid red;
   display: flex;
   flex-direction: column;
 }
 #start-next-btn {
-  width: 100px;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
   margin: 5px auto;
+  background-color: #00b4d8;
 }
-.answer-container {
-  border: thin solid rgb(45, 45, 45);
+
+#see-all-words {
+  height: 35px;
+  padding: 3px;
 }
+
 #display-word-text {
   display: inline;
   font-size: larger;
-  border: thin solid black;
+  border: 0.5px solid #e0b27a;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e0f7fa;
   width: fit-content;
   margin: 10px auto;
 }
-
+.mcq-container {
+  width: fit-content;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  margin: 5px auto;
+}
 .mcq-container button {
+  margin: 15px;
+  height: 30px;
   width: 200px;
-  margin: 5px;
 }
 
 .see-all-words-section {
   margin-top: 30px;
-  border: thin solid blue;
 }
-
-/* 
-.list-all-words {
-  display: none;
-} */
 
 .list-all-words ul {
   list-style: none;
 }
 
-.list-all-words ul li {
+.list {
+  background-color: #e0f7fa;
+  width: 500px;
+  border: 0.5px solid #e0b27a;
+  border-radius: 5px;
   list-style: none;
-  background-color: bisque;
-  margin-top: 10px;
-  padding: 4px;
+  margin-bottom: 15px;
+  padding: 7px;
 }
 
+.list ul > li {
+  margin-bottom: 5px;
+}
+
+#bold {
+  font-weight: bold;
+}
 .level-btn.selected,
 .pos-btn.selected {
-  background-color: hsl(60, 99%, 51%);
+  background-color: #f4d35e;
+  color: #000;
+  font-weight: bold;
+  border-color: #f0c500;
 }
+
+.pos-btn.selected {
+  background-color: #90e0ef;
+  color: #000;
+  font-weight: bold;
+  border-color: #00b4d8;
+}
+
+.selected {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
 #display-list {
   display: none;
+}
+
+#search-container {
+  display: none;
+}
+#search {
+  width: fit-content;
+  margin: 0px 0px 0px auto;
+}
+#search input {
+  border-radius: 5px;
+  height: 35px;
+  width: 400px;
+}
+#search button {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+fieldset {
+  border: thin solid #e0b27a;
+  margin-bottom: 10px;
 }
