@@ -35,6 +35,7 @@ const displayWordText = document.getElementById("display-word-text");
 const displayList = document.getElementById("display-list");
 const answerContainer = document.getElementsByClassName("answer-container");
 const searchContainer = document.getElementById("search-container");
+const messageEl = document.getElementById("message");
 //----------------------------------------------------------------<Change the selected btn>
 //when user clicked the btn, remove ".level-btn selected" (alreday cliced btn),
 // and then add ".level-btn selected " to the btn which user clicked
@@ -79,7 +80,6 @@ function changeBtn(levelBtns, posBtns) {
           startNextBtn.classList.add("start");
 
           startNextBtn.classList.remove("next");
-
           displayListF(wordsList[levelValue]?.[posValue]);
         }
       });
@@ -99,8 +99,6 @@ startBtn.addEventListener("click", function () {
   startNextBtn.classList.remove("start");
   startNextBtn.classList.add("next");
   startNextBtn.innerHTML = "NEXT";
-  //reset the background color of answer btns
-  ansBtns.forEach((btn) => (btn.style.backgroundColor = ""));
 
   correctAnsBtnId = "";
   correctAnsBtn = "";
@@ -124,42 +122,51 @@ function getWords(levelValue, posValue) {
 }
 
 startNextBtn.addEventListener("click", function () {
-  if (startNextBtn.classList.contains("next")) {
-    hasCorrect = false;
-  }
   if (leftList.length > 0) {
     getWords(statesObj.level, statesObj.pos);
-  } else {
-    answerContainer[0].innerHTML = "<p>Completed!</p>";
+  } else if (leftList.length === 0) {
+    messageEl.textContent = "🎊 Great job! You have completed the quiz!";
   }
 });
 
-let hasCorrect = false;
 function renderAnswer(falseList, correctAns) {
-  let randomAnserBtnNum = Math.floor(Math.random() * 4 + 1);
+  //get random number to dicide which index of btn is correct [0 - 3]
+  let randomAnserBtnNum = Math.floor(Math.random() * 4);
+  //get all answer btns
   const ansBtnArr = Array.from(ansBtns);
-  correctAnsBtnId = ansBtnArr
-    .map((btn) => btn.id)
-    .find((i) => Number(i) === Number(randomAnserBtnNum));
-  correctAnsBtn = document.getElementById(`${correctAnsBtnId}`);
-  correctAnsBtn.innerHTML = correctAns;
+  //FOR each button in the answer buttons:
+  ansBtnArr.forEach((btn) => {
+    //Clone the button to remove previous event listeners.
+    const newBtn = btn.cloneNode(true);
+    //Replace the original with the cloned one.
+    btn.replaceWith(newBtn);
+  });
+  //c. Store the new clean buttons in a new array.
+  //querySelector => return HTML collection
+  const updatedBtns = Array.from(document.querySelectorAll(".ans-btn"));
 
-  const falseBtns = ansBtnArr.filter((btn) => btn != correctAnsBtn);
+  //reset the background color of answer btns
+  updatedBtns.forEach((btn) => (btn.style.backgroundColor = ""));
+  messageEl.textContent = "";
+  const correctAnsBtn = updatedBtns[randomAnserBtnNum];
+  correctAnsBtn.textContent = correctAns;
+
+  correctAnsBtn.addEventListener("click", () => {
+    correctAnsBtn.style.backgroundColor = "#c0f2b0";
+    messageEl.textContent = "✅ Correct!";
+  });
+
+  const falseBtns = updatedBtns.filter((btn) => btn !== correctAnsBtn);
   for (let i = 0; i < falseBtns.length; i++) {
-    const randomFalseIndex = Math.floor(Math.random() * falseList.length);
-    falseBtns[i].innerHTML = falseList[randomFalseIndex].english_translation;
+    // const randomFalseIndex = Math.floor(Math.random() * falseList.length);
+    const falseWord = falseList[i % falseList.length].english_translation;
+    falseBtns[i].textContent = falseWord;
 
-    falseBtns[i].addEventListener("click", function () {
-      falseBtns[i].style.backgroundColor = "red";
-      alert("Your answer is incorrect! Try again!");
+    falseBtns[i].addEventListener("click", () => {
+      falseBtns[i].style.backgroundColor = "#f9b5ac";
+      messageEl.textContent = "❌ Try again!";
     });
   }
-
-  correctAnsBtn.addEventListener("click", function () {
-    correctAnsBtn.style.backgroundColor = "yellow";
-    hasCorrect = true;
-    alert("Correct!");
-  });
 }
 
 let isDisplay = false;

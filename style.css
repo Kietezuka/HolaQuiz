@@ -159,3 +159,10 @@ fieldset {
   border: thin solid #e0b27a;
   margin-bottom: 10px;
 }
+
+#message {
+  font-size: larger;
+  font-weight: bold;
+  width: fit-content;
+  margin: 5px auto;
+}
