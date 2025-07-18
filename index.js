@@ -48,7 +48,6 @@ let statesObj = {};
 
 let correctAnsBtnId = "";
 let correctAnsBtn = "";
-
 function changeBtn(levelBtns, posBtns) {
   function changeState(btns) {
     btns.forEach((btn) => {
@@ -64,6 +63,18 @@ function changeBtn(levelBtns, posBtns) {
         statesObj.level = levelValue;
         statesObj.pos = posValue;
         startNextBtn.innerHTML = "START";
+
+        function getCurrentAnsBtns() {
+          return document.querySelectorAll(".ans-btn");
+        }
+
+        getCurrentAnsBtns().forEach((btn) => {
+          btn.textContent = "❓";
+          btn.style.backgroundColor = "";
+        });
+
+        messageEl.textContent = "";
+        displayWordText.textContent = "";
 
         if (!levelValue || !posValue) {
           if (posValue && !levelValue) {
