@@ -1,6 +1,11 @@
-const response = await fetch("./data.json");
+const response = await fetch(
+  "https://raw.githubusercontent.com/vbvss199/Language-Learning-decks/refs/heads/main/spanish/spanish_flashcards_2.5_fixed_with_issues_true.json"
+);
+if (!response.ok) {
+  throw new Error("There was a problem with the API");
+}
+
 const data = await response.json();
-//console.log(data);//4113
 
 const levels = data.map(function (d) {
   return d.cefr_level;
@@ -48,6 +53,7 @@ let statesObj = {};
 
 let correctAnsBtnId = "";
 let correctAnsBtn = "";
+let leftList = [];
 function changeBtn(levelBtns, posBtns) {
   function changeState(btns) {
     btns.forEach((btn) => {
@@ -75,7 +81,7 @@ function changeBtn(levelBtns, posBtns) {
 
         messageEl.textContent = "";
         displayWordText.textContent = "";
-
+        leftList = [];
         if (!levelValue || !posValue) {
           if (posValue && !levelValue) {
             displayWordText.textContent = `Please select a CEFR level to focus on ${posValue}s.`;
@@ -116,7 +122,6 @@ startBtn.addEventListener("click", function () {
   getWords(statesObj.level, statesObj.pos);
 });
 
-let leftList = [];
 function getWords(levelValue, posValue) {
   const list = wordsList[levelValue]?.[posValue];
   let getRandomIndex = "";
