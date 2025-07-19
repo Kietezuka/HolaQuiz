@@ -79,7 +79,7 @@ function setupQuiz(data) {
           function getCurrentAnsBtns() {
             return document.querySelectorAll(".ans-btn");
           }
-          // Reset the answer buttons and display
+          // Reset background colors of answer buttons
           getCurrentAnsBtns().forEach((btn) => {
             btn.textContent = "❓";
             btn.style.backgroundColor = "";
@@ -141,32 +141,33 @@ function setupQuiz(data) {
 
   // ------------------ Render multiple choice answers ------------------
   function renderAnswer(falseList, correctAns) {
-    //get random number to dicide which index of btn is correct [0 - 3]
+    // Get a random index (0–3) to place the correct answer
     let randomAnserBtnNum = Math.floor(Math.random() * 4);
     const ansBtnArr = Array.from(ansBtns);
 
-    // Clean up previous event listeners
+    // Reset old event listeners by cloning all answer buttons
     ansBtnArr.forEach((btn) => {
-      //Clone the button to remove previous event listeners.
       const newBtn = btn.cloneNode(true);
-      //Replace the original with the cloned one.
       btn.replaceWith(newBtn);
     });
-    //Store the new clean buttons in a new array.
+
+    // Select the updated (clean) answer buttons
     //querySelector => return HTML collection
     const updatedBtns = Array.from(document.querySelectorAll(".ans-btn"));
 
-    //reset the background color of answer btns
+    // Reset styling and message
     updatedBtns.forEach((btn) => (btn.style.backgroundColor = ""));
     messageEl.textContent = "";
     const correctAnsBtn = updatedBtns[randomAnserBtnNum];
     correctAnsBtn.textContent = correctAns;
 
+    // Set the correct answer in the randomly chosen button
     correctAnsBtn.addEventListener("click", () => {
       correctAnsBtn.style.backgroundColor = "#c0f2b0";
       messageEl.textContent = "✅ Correct!";
     });
 
+    // Fill the remaining buttons with incorrect answers
     const falseBtns = updatedBtns.filter((btn) => btn !== correctAnsBtn);
     for (let i = 0; i < falseBtns.length; i++) {
       const randomFalseIndex = Math.floor(Math.random() * falseList.length);
@@ -233,7 +234,7 @@ function setupQuiz(data) {
     const searchInput = document.querySelector("#search-input");
     const keyword = searchInput.value.trim();
     const regexp = new RegExp(keyword, "gi");
-    //check if there is any mached word
+    // Check if any word matches the keyword
     const matchedWord = lists.filter(
       (list) =>
         regexp.test(list.word) ||
