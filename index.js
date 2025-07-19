@@ -122,8 +122,6 @@ function setupQuiz(data) {
     startNextBtn.classList.add("next");
     startNextBtn.innerHTML = "NEXT";
 
-    correctAnsBtnId = "";
-    correctAnsBtn = "";
     getWords(statesObj.level, statesObj.pos);
   });
 
