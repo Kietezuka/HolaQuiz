@@ -1,3 +1,4 @@
+// Entry point: asynchronously fetch data from JSON and initialize the quiz
 async function init() {
   try {
     const response = await fetch("data.json");
@@ -12,13 +13,15 @@ async function init() {
   }
 }
 
-init();
+init(); // Call the init function
 
+// --------------------------------------------------
+// Initialize the quiz functionality with loaded data
 function setupQuiz(data) {
   const levels = data.map(function (d) {
     return d.cefr_level;
   });
-
+  // Extract unique CEFR levels and categorize words by level and part of speech
   const levelsUnique = [...new Set(levels)];
   const wordsList = {};
 
@@ -34,22 +37,18 @@ function setupQuiz(data) {
     };
   });
 
-  //button level
+  // Element references
   const levelBtns = document.querySelectorAll(".level-btn");
-  //button pos
   const posBtns = document.querySelectorAll(".pos-btn");
   const startNextBtn = document.getElementById("start-next-btn");
   const startBtn = document.querySelector(".start");
   const ansBtns = document.querySelectorAll(".ans-btn");
   const seeAllWords = document.getElementById("see-all-words");
-
-  //Element
   const displayWordText = document.getElementById("display-word-text");
   const displayList = document.getElementById("display-list");
-  const answerContainer = document.getElementsByClassName("answer-container");
   const searchContainer = document.getElementById("search-container");
   const messageEl = document.getElementById("message");
-  //----------------------------------------------------------------<Change the selected btn>
+
   //when user clicked the btn, remove ".level-btn selected" (alreday cliced btn),
   // and then add ".level-btn selected " to the btn which user clicked
 
@@ -57,11 +56,10 @@ function setupQuiz(data) {
   // => then add ".level-btn selected " to the btn which user cliced
   //same works for posBtns
 
+  // Stores current selected level and part of speech
   let statesObj = {};
 
-  let correctAnsBtnId = "";
-  let correctAnsBtn = "";
-
+  // ------------------ Handle CEFR level and POS button states ------------------
   function changeBtn(levelBtns, posBtns) {
     function changeState(btns) {
       btns.forEach((btn) => {
@@ -81,7 +79,7 @@ function setupQuiz(data) {
           function getCurrentAnsBtns() {
             return document.querySelectorAll(".ans-btn");
           }
-
+          // Reset the answer buttons and display
           getCurrentAnsBtns().forEach((btn) => {
             btn.textContent = "❓";
             btn.style.backgroundColor = "";
@@ -113,8 +111,8 @@ function setupQuiz(data) {
     changeState(posBtns);
   }
   changeBtn(levelBtns, posBtns);
-  // getWords(statesObj.level, statesObj.pos);
 
+  // ------------------ Start quiz logic ------------------
   startBtn.addEventListener("click", function () {
     if (!statesObj.level || !statesObj.pos) {
       alert("Select a level and part of speech to start the quiz.");
@@ -141,27 +139,20 @@ function setupQuiz(data) {
     renderAnswer(falseList, list[getRandomIndex].english_translation);
   }
 
-  // startNextBtn.addEventListener("click", function () {
-  //   if (leftList.length > 0) {
-  //     getWords(statesObj.level, statesObj.pos);
-  //   } else if (leftList.length === 0) {
-  //     messageEl.textContent = "🎊 Great job! You have completed the quiz!";
-  //   }
-  // });
-
+  // ------------------ Render multiple choice answers ------------------
   function renderAnswer(falseList, correctAns) {
     //get random number to dicide which index of btn is correct [0 - 3]
     let randomAnserBtnNum = Math.floor(Math.random() * 4);
-    //get all answer btns
     const ansBtnArr = Array.from(ansBtns);
-    //FOR each button in the answer buttons:
+
+    // Clean up previous event listeners
     ansBtnArr.forEach((btn) => {
       //Clone the button to remove previous event listeners.
       const newBtn = btn.cloneNode(true);
       //Replace the original with the cloned one.
       btn.replaceWith(newBtn);
     });
-    //c. Store the new clean buttons in a new array.
+    //Store the new clean buttons in a new array.
     //querySelector => return HTML collection
     const updatedBtns = Array.from(document.querySelectorAll(".ans-btn"));
 
@@ -178,8 +169,8 @@ function setupQuiz(data) {
 
     const falseBtns = updatedBtns.filter((btn) => btn !== correctAnsBtn);
     for (let i = 0; i < falseBtns.length; i++) {
-      // const randomFalseIndex = Math.floor(Math.random() * falseList.length);
-      const falseWord = falseList[i % falseList.length].english_translation;
+      const randomFalseIndex = Math.floor(Math.random() * falseList.length);
+      const falseWord = falseList[randomFalseIndex].english_translation;
       falseBtns[i].textContent = falseWord;
 
       falseBtns[i].addEventListener("click", () => {
@@ -189,6 +180,7 @@ function setupQuiz(data) {
     }
   }
 
+  // ------------------ Toggle word list display ------------------
   let isDisplay = false;
   seeAllWords.addEventListener("click", function () {
     isDisplay = !isDisplay;
@@ -201,6 +193,7 @@ function setupQuiz(data) {
     }
   });
 
+  // ------------------ Display word list with search ------------------
   function displayListF(list) {
     displayList.innerHTML = "";
     searchContainer.innerHTML = `
@@ -227,15 +220,15 @@ function setupQuiz(data) {
                 </li>`;
     }
   }
-  //Search
 
+  // ------------------ Word search logic ------------------
   function search(list) {
     const searchBtn = document.querySelector("#search-btn");
     searchBtn.addEventListener("click", function () {
       findMarchWord(list);
     });
   }
-  //[{}.{},]
+
   function findMarchWord(lists) {
     const searchInput = document.querySelector("#search-input");
     const keyword = searchInput.value.trim();
