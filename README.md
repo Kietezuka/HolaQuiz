@@ -21,31 +21,32 @@
 
 ## How to use
 
-    1. Open the App
-    Open the app in your browser:
-    👉<https://holaquiz.netlify.app/>
+1. Open the App
+   Open the app in your browser:
+   👉<https://holaquiz.netlify.app/>
 
-    2. Select CEFR Level
-    Choose from A1 to C1 to match your Spanish proficiency level.
+2. Select CEFR Level
+   Choose from A1 to C1 to match your Spanish proficiency level.
 
-    3. Choose Part of Speech
-    Pick the type of words you want to learn: noun, verb, adjective, adverb, or all.
+3. Choose Part of Speech
+   Pick the type of words you want to learn: noun, verb, adjective, adverb, or all.
 
-    4. Start the Quiz
-    Click START to begin. A Spanish word will appear with 4 English options—choose the correct one!
+4. Start the Quiz
+   Click START to begin. A Spanish word will appear with 4 English options—choose the correct one!
 
-    5. Get Instant Feedback
-    - ✅ Green = correct
+5. Get Instant Feedback
 
-    - ❌ Red = incorrect
+   - ✅ Green = correct
 
-    - Message will show either "Correct!" or "Try again!"
+   - ❌ Red = incorrect
 
-    6. Explore Word List
-    Click See all words 🔽 to browse and search the full word bank, including examples.
+   - Message will show either "Correct!" or "Try again!"
 
-    7. Restart or Switch Levels Anytime
-    You can change level or part of speech anytime and click START to reset.
+6. Explore Word List
+   Click See all words 🔽 to browse and search the full word bank, including examples.
+
+7. Restart or Switch Levels Anytime
+   You can change level or part of speech anytime and click START to reset.
 
 ## ⚙️ Developer Notes
 
